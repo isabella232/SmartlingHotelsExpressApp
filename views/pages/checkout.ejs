@@ -16,7 +16,8 @@
         <div class="col-md-5">
             <div class="panel panel-primary" style="background: #337ab7">
                 <div class="panel-heading" style="">
-                    <div class="h3"><%= checkout[0] + formData.firstName + " " + formData.lastName + checkout[1] %></div>
+                    <div class="h3"><%= gt.gettext('Hello %s %d', formData.firstName, formData.lastName) %>
+                        <%= checkout[0] + formData.firstName + " " + formData.lastName + checkout[1] %></div>
                     <div class="h4" style="line-height: 150%;">
                         <div><%= checkout[2] %> <span style="text-decoration: underline;"><%= hotel.name %></span></div>
                         <div><%= checkout[3] %>

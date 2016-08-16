@@ -15,18 +15,24 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="form-group col-md-6">
-                                <label for="firstName">First Name:</label>
+                                <label for="firstName">
+                                    <% gt.gettext('First Name:') %>
+                                </label>
                                 <input name="firstName" id="firstName" class="form-control" type="text" required>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="lastName">Last Name:</label>
+                                <label for="lastName">
+                                    <% gt.gettext('Last Name:') %>
+                                </label>
                                 <input name="lastName" id="lastName" class="form-control" type="text" required>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="form-group col-md-12">
-                                <label for="email">Email Address</label>
+                                <label for="email">
+                                    <% gt.gettext('Email Address:') %>
+                                </label>
                                 <input name="email" id="email" class="form-control"
                                        type="text" required>
                             </div>
@@ -35,8 +41,9 @@
                         <!--Number of Days-->
                         <div class="row">
                             <div class="form-group form-inline col-lg-12">
-                                <label for="spinner" style="margin-right: 10px;">How many nights will you be
-                                    staying?</label>
+                                <label for="spinner" style="margin-right: 10px;">
+                                    <% gt.gettext('How many nights will you be staying?') %>
+                                </label>
                                 <input class="form-control text-center" id="spinner" name="nights" type="number"
                                        min="1"
                                        value="1" required>
@@ -52,7 +59,7 @@
             </div>
             <div class="modal-footer">
                 <div>
-                    <label for="submit-form" class="btn btn-primary">Confirm</label>
+                    <label for="submit-form" class="btn btn-primary"><% gt.gettext('Confirm') %></label>
                     <button type="button" class="btn btn-primary" data-dismiss="modal">Cancel</button>
                 </div>
             </div>

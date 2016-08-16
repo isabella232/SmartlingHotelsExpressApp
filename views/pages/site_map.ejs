@@ -1,0 +1,25 @@
+<!DOCTYPE>
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+    <% include ../partials/head.ejs %>
+    <% include ../partials/opengraph.ejs %>
+</head>
+
+<body>
+<% include ../partials/pageheader.ejs %>
+
+<div class="container-fluid">
+    <div style="font-size: 200%">
+        <ul>
+            <li><a href="/"><%= gt.gettext('Home') %></a></li>
+            <li><a href="/browse"><%= gt.gettext('Browse Hotels') %></a></li>
+            <li><a href="/about_us"><%= gt.gettext('About Us') %></a></li>
+            <li><a href="/support"><%= gt.gettext('Costumer Support') %></a></li>
+            <li><a href="/site_map"><%= gt.gettext('Site Map') %></a></li>
+        </ul>
+    </div>
+</div>
+<% include ../partials/footer.ejs %>
+</body>
+</html>
+

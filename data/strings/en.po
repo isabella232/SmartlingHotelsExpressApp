@@ -8,7 +8,26 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2016-08-16 17:29+0000\n"
+"POT-Creation-Date: 2016-08-16 20:43+0000\n"
+
+#: ./views/pages/about_us.ejs:14
+msgid ""
+"SmartlingHotels® is the world's best travel site, enabling travelers to "
+"utilize the full potential of every trip. SmartlingHotels provides people "
+"with recommendations from millions of travelers in addition to a multitude "
+"of travel choices and trip-planning features with links to excellent "
+"booking tools that check hundreds of websites in order to find users the "
+"best prices. SmartlingHotels sites make up for a significant portion of the "
+"global travel community, reaching nearly 3.49 million unique monthly "
+"visitors, and 1.72 million reviews and opinions covering more than 2.37 "
+"million accommodations, restaurants and attractions. The sites operate in "
+"800 markets worldwide. SmartlingHotels: Get the best rooms for the best "
+"prices!"
+msgstr ""
+
+#: ./views/pages/checkout.ejs:19
+msgid "Hello %s %d"
+msgstr ""
 
 #: ./views/pages/index.ejs:29
 msgid "Get the best rooms for the best prices! Only at SmartlingHotels®."
@@ -21,7 +40,7 @@ msgid ""
 msgstr ""
 
 #: ./views/pages/index.ejs:36
-msgid "Test %s with interpolation"
+msgid "Welcome back, %s!"
 msgstr ""
 
 #: ./views/pages/index.ejs:39
@@ -30,6 +49,68 @@ msgid_plural "You are booking %d nights"
 msgstr[0] ""
 msgstr[1] ""
 
+#: ./views/pages/site_map.ejs:14
+#: ./views/partials/pageheader.ejs:13
+msgid "Home"
+msgstr ""
+
+#: ./views/pages/site_map.ejs:15
+#: ./views/partials/pageheader.ejs:14
+msgid "Browse Hotels"
+msgstr ""
+
+#: ./views/pages/site_map.ejs:16
 #: ./views/partials/pageheader.ejs:15
-msgid "About US"
+msgid "About Us"
+msgstr ""
+
+#: ./views/pages/site_map.ejs:17
+msgid "Costumer Support"
+msgstr ""
+
+#: ./views/pages/site_map.ejs:18
+#: ./views/partials/pageheader.ejs:17
+msgid "Site Map"
+msgstr ""
+
+#: ./views/pages/support.ejs:13
+msgid ""
+"We strive to ensure that our customers are 100% satisfied. However, we "
+"understand that some customers may not be satisfied with the services that "
+"we provide."
+msgstr ""
+
+#: ./views/pages/support.ejs:14
+msgid ""
+"That being said, we welcome unsatisfied customers to voice any issues or "
+"suggestions with us, so we can improve both our company and the "
+"effectiveness of our services. "
+msgstr ""
+
+#: ./views/partials/pageheader.ejs:16
+msgid "Customer Support"
+msgstr ""
+
+#: ./views/partials/pageheader.ejs:25
+msgid "SmartlingHotels"
+msgstr ""
+
+#: ./views/partials/room_modal.ejs:19
+msgid "First Name:"
+msgstr ""
+
+#: ./views/partials/room_modal.ejs:25
+msgid "Last Name:"
+msgstr ""
+
+#: ./views/partials/room_modal.ejs:34
+msgid "Email Address:"
+msgstr ""
+
+#: ./views/partials/room_modal.ejs:45
+msgid "How many nights will you be staying?"
+msgstr ""
+
+#: ./views/partials/room_modal.ejs:62
+msgid "Confirm"
 msgstr ""

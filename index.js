@@ -96,7 +96,7 @@ app.get('/about_us', function (request, response) {
     var titleText = meta.about_us.titleText;
     var description = meta.about_us.description;
     var data2 = data.about_us;
-    response.render('pages/page', {nav: nav, titleText: titleText, description: description, data: data2});
+    response.render('pages/about_us', {nav: nav, titleText: titleText, description: description, data: data2});
 });
 
 /* Browse */
@@ -111,7 +111,7 @@ app.get('/site_map', function (request, response) {
     var titleText = meta.site_map.titleText;
     var description = meta.site_map.description;
     var data2 = data.site_map;
-    response.render('pages/page', {nav: nav, titleText: titleText, description: description, data: data2});
+    response.render('pages/site_map', {nav: nav, titleText: titleText, description: description, data: data2});
 });
 
 /* Support */
@@ -119,7 +119,7 @@ app.get('/support', function (request, response) {
     var titleText = meta.support.titleText;
     var description = meta.support.description;
     var data2 = data.support;
-    response.render('pages/page', {nav: nav, titleText: titleText, description: description, data: data2});
+    response.render('pages/support', {nav: nav, titleText: titleText, description: description, data: data2});
 });
 
 /* Checkout */

@@ -1,0 +1,49 @@
+<!DOCTYPE>
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+    <% include ../partials/head.ejs %>
+    <% include ../partials/opengraph.ejs %>
+</head>
+
+<body>
+<% include ../partials/pageheader.ejs %>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-7">
+            <img class="img-responsive" src="/img/<%= hotel.image %>" alt="">
+        </div>
+        <div class="col-md-5">
+            <div class="panel panel-primary" style="background: #337ab7">
+                <div class="panel-heading" style="">
+                    <div class="h3"><%= checkout[0] + formData.firstName + " " + formData.lastName + checkout[1] %></div>
+                    <div class="h4" style="line-height: 150%;">
+                        <div><%= checkout[2] %> <span style="text-decoration: underline;"><%= hotel.name %></span></div>
+                        <div><%= checkout[3] %>
+                            <span style="text-decoration: underline;"><%= formData.nights + checkout[4] %></span>
+                        </div>
+                        <div><%= checkout[5] %>
+                            <span style="text-decoration: underline;"><%= checkout[5] + hotel.price + checkout[6] %></span>
+                        </div>
+                        <div><%= checkout[8] %>
+                            <span style="text-decoration: underline;"><%= checkout[9] + formData.nights * hotel.price %></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <button class="btn btn-primary btn-lg" style="width: 100%"><%= checkout[10] %></button>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<!-- Information Confirmation -->
+<div class="col-md-4">
+    <div class="panel panel-info text-center">
+        SSSSSSSSSS
+    </div>
+</div>
+<% include ../partials/footer.ejs %>
+</body>
+</html>

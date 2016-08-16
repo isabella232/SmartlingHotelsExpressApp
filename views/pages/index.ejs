@@ -1,0 +1,45 @@
+<!--Smartling Hotel Model Web Site-->
+<html lang="en-US">
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+    <% include ../partials/head.ejs %>
+    <% include ../partials/opengraph.ejs%>
+
+    <script src="/js/timeScript.js"></script>
+
+</head>
+<body onload="startTime()">
+
+<% include ../partials/pageheader.ejs %>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-12" style="font-size:200%;">
+            <div id="txtGreeting"></div>
+            <div>
+                <span id="txtCurrentTime"></span>
+                <span id="txtClock" style="color:red;"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div style="font-size: 200%">
+        <p>
+            <strong><%=gt.gettext('Get the best rooms for the best prices! Only at SmartlingHotels®.') %></strong>
+        </p>
+        <p style="font-size: 75%">
+            <%= gt.gettext('Here at SmartlingHotels, we provide only the greatest hotels and only the greatest prices. We guarantee that all customers will be 100% satisfied.') %>
+        </p>
+
+        <p>
+            <%= sprintf(gt.gettext('Welcome back, %s!'), 'Mitchell') %>
+        </p>
+        <p>
+            <%= sprintf(gt.ngettext('You are booking %d night', 'You are booking %d nights', 5), 5)%>
+        </p>
+    </div>
+</div>
+<% include ../partials/footer.ejs %>
+</body>
+</html>

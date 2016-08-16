@@ -1,0 +1,28 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="<%= nav.brand.link %>" style="color: lightgray"><%= nav.brand.text %></a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="<%= nav.home.link %>"><%= nav.home.text %></a></li>
+                <li><a href="<%= nav.browse.link %>"><%= nav.browse.text %></a></li>
+                <li><a href="<%= nav.about_us.link %>"><%= gt.gettext('About US') %></a></li>
+                <li><a href="<%= nav.support.link %>"><%= nav.support.text %></a></li>
+                <li><a href="<%= nav.site_map.link %>"><%= nav.site_map.text %></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="jumbotron bg"  style="width: 100%; margin-top: 2%;">
+    <div>
+        <div class="h1" id="heading">
+            <%= nav.brand.text %>
+        </div>
+    </div>
+</div>

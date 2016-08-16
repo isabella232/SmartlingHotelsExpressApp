@@ -1,0 +1,35 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2016-08-16 17:29+0000\n"
+
+#: ./views/pages/index.ejs:29
+msgid "Get the best rooms for the best prices! Only at SmartlingHotels®."
+msgstr ""
+
+#: ./views/pages/index.ejs:32
+msgid ""
+"Here at SmartlingHotels, we provide only the greatest hotels and only the "
+"greatest prices. We guarantee that all customers will be 100% satisfied."
+msgstr ""
+
+#: ./views/pages/index.ejs:36
+msgid "Test %s with interpolation"
+msgstr ""
+
+#: ./views/pages/index.ejs:39
+msgid "You are booking %d night"
+msgid_plural "You are booking %d nights"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ./views/partials/pageheader.ejs:15
+msgid "About US"
+msgstr ""

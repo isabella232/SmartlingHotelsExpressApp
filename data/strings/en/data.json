@@ -1,0 +1,22 @@
+{
+  "about_us": [
+    "<p>SmartlingHotels® is the world's best travel site, enabling travelers to utilize the full potential of every trip. SmartlingHotels provides people with recommendations from millions of travelers in addition to a multitude of travel choices and trip-planning features with links to excellent booking tools that check hundreds of websites in order to find users the best prices. SmartlingHotels sites make up for a significant portion of the global travel community, reaching nearly 3.49 million unique monthly visitors, and 1.72 million reviews and opinions covering more than 2.37 million accommodations, restaurants and attractions. The sites operate in 800 markets worldwide. SmartlingHotels: Get the best rooms for the best prices!</p>"
+  ],
+  "index": {
+    "str1": "Get the best rooms for the best prices! Only at SmartlingHotels®.",
+    "str2": "Here at SmartlingHotels, we provide only the greatest hotels and only the greatest prices. We guarantee that all customers will be 100% satisfied."
+  },
+  "support": [
+    "<p> We strive to ensure that our customers are 100% satisfied. However, we understand that some customers may not be satisfied with the services that we provide. <br> That being said, we welcome unsatisfied customers to voice any issues or suggestions with us, so we can improve both our company and the effectiveness of our services. </p>",
+    "<p style=\"font-weight: 700;\">Customers can reach our support team online at: <a>support@smartlinghotels.com</a> <br> or by calling: <a>1-866-666-6666</a>"
+  ],
+  "site_map": [
+    "<ul>",
+    "<li><a href=\"/\">Home</a></li>",
+    "<li><a href=\"/browse\">Browse Hotels</a></li>",
+    "<li><a href=\"/about_us\">About Us</a></li>",
+    "<li><a href=\"/support\">Customer Support</a></li>",
+    "<li><a href=\"/site_map\">Site Map</a></li>",
+    "</ul>"
+  ]
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+
+    <% include ../partials/head.ejs %>
+
+    <style>
+        .carousel-inner > .item > img {
+            margin: 0 auto;
+        }
+
+        .modal-dialog{
+            position: relative;
+            overflow-y: auto;
+            overflow-x: auto;
+            max-width: fit-content;
+            min-width: 300px;
+        }
+    </style>
+
+</head>
+<body>
+<% include ../partials/pageheader.ejs %>
+
+<% include ../partials/browse_form.ejs %>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8" style="margin-bottom: 2%;">
+            <!-- carousel-->
+            <% include ../partials/carousel_template.ejs %>
+            <br>
+            <div class="row">
+                <div style="text-align: center; font-weight: 700; font-size: 185%;">
+                    <%= hotel.rooms %> rooms available with prices starting at:
+                    <span style="color: red; text-decoration: underline;">
+                        $<%= hotel.price %> per night
+                    </span>
+                </div>
+            </div>
+            <br>
+            <div>
+                <button class="btn btn-primary btn-block btn-lg" role="button"
+                        data-toggle="modal" data-target="#modal">
+                    <span>Click this Button to Make a Reservation</span>
+                </button>
+            </div>
+
+            <% include ../partials/room_modal.ejs%>
+
+            <hr>
+            <!-- Customer Reviews-->
+            <div>
+                <div class="h2">
+                    Customer Reviews:
+                </div>
+                <% var reviews = hotel.reviews %>
+                <% for(var i = 0; i < reviews.length; i++){ %>
+                <div class="panel panel-primary">
+                    <div class="panel-body" style="background: #337ab7; color: white;">
+                        <div class="row col-md-12">
+                            <blockquote>
+                                <!--Review-->
+                                <p><em><%- reviews[i].text %></em></p>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="panel-footer" style="background: white;">
+                        <div class="row h4">
+                            <div class="col-md-5">
+                                <!--Rating-->
+                                <div style="color: blue; font-weight: 900;"><%= reviews[i].rating %> / 5.0</div>
+                            </div>
+                            <div class="col-md-7" style="text-align: right">
+                                <!--User-->
+                                Review by: <a><%= reviews[i].user %></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <% } %>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="h1"><%= hotel.name %></div>
+            <hr>
+            <div class="h4">Location: <br>
+                <span class="notranslate">
+                    <small>
+                        <%= hotel.address.compiled_ln1 %>
+                        <br>
+                        <%= hotel.address.compiled_ln2 %>
+                    </small>
+                </span>
+            </div>
+            <%- hotel.description2 %>
+        </div>
+    </div>
+</div>
+<% include ../partials/footer.ejs %>
+</body>
+
+</html>

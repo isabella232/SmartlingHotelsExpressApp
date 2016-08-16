@@ -1,0 +1,35 @@
+{
+  "name": "node-js-getting-started",
+  "version": "0.1.5",
+  "description": "Tells you if things are a gate",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "2.3.3",
+    "express": "4.13.3",
+    "body-parser": "latest",
+    "sprintf": "^0.1.5",
+    "locale": "^0.1.0",
+    "node-gettext": "latest"
+  },
+  "engines": {
+    "node": "0.12.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-shell": "^0.5.2",
+    "jsxgettext": "^0.8.2"
+  }
+}

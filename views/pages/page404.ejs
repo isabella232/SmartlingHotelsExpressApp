@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <% include ../partials/head.ejs %>
+    <% include ../partials/opengraph.ejs %>
+
+    <script>
+        $(document).ready(function(){
+            $('#returnToSearch').remove();
+            $('#selector').on("change", function(){
+                var str = $('#selector').val();
+                $('#findHotels').prop("href", "/browse/" + str);
+            });
+        });
+    </script>
+
+</head>
+<body>
+<% include ../partials/pageheader.ejs %>
+<%var hotel = {"prevLink":""}%>
+<% include ../partials/browse_form.ejs %>
+
+    <div class="jumbotron">
+        <div class="h2" style="text-align: center;">
+            Sorry, but the hotel you are looking for is not here. Please try revising your search.
+        </div>
+    </div>
+<% include ../partials/footer.ejs%>
+</body>
+
+</html>

@@ -1,0 +1,728 @@
+[
+	{
+		"gateName": "Watergate",
+		"category": "yes",
+		"description": "The Gate by which all others are judged.",
+		"link": "https://en.wikipedia.org/wiki/Watergate_scandal",
+		"image": "http://decryptedmatrix.com/wp-content/uploads/2014/11/nixon-resigns.png"
+	},
+	{
+		"gateName": "Monicagate",
+		"category": "kinda",
+		"description": "There's a scandal and a coverup. Both important elements of a Gate. Except <a href='/zippergate'>Zippergate</a> is a way better name for this.",
+		"link": "https://en.wikipedia.org/wiki/Lewinsky_scandal",
+		"image": "http://managerlink.monster.com/nfs/managerlink/attachment_images/0000/6364/bill1.jpg"		
+	},
+	{
+		"gateName": "Gamergate",
+		"category": "no",
+		"description": "Just dudes being dicks.",
+		"link": "https://en.wikipedia.org/wiki/Gamergate_controversy",
+		"image": "http://1.images.comedycentral.com/images/shows/colbert_report/videos/season11/11015/cr_11015_01.jpg"
+	},
+	{
+		"gateName": "Zippergate",
+		"category": "yes",
+		"description": "Yuuuuuuup!",
+		"link": "https://en.wikipedia.org/wiki/Lewinsky_scandal",
+		"image": "http://managerlink.monster.com/nfs/managerlink/attachment_images/0000/6364/bill1.jpg"
+	},
+	{
+		"gateName": "Doughnutgate",
+		"category": "no",
+		"description": "If licking doughnuts counts as a Gate, so does my second grade birthday party. Fuck you, Tyler. #NeverForget",
+		"link": "https://en.wikipedia.org/wiki/Ariana_Grande#Public_image",
+		"image": "http://cdn1.theodysseyonline.com/files/2015/07/12/6357225885397633021910586515_ariana-grand-donut.0.0.png"
+	},
+	{
+		"gateName": "Donutgate",
+		"category": "kinda",
+		"description": "See <a href='/doughnutgate'>Doughnutgate</a>. Also, learn to spell, asshole.",
+		"link": "https://en.wikipedia.org/wiki/Ariana_Grande#Public_image",
+		"image": "http://cdn1.theodysseyonline.com/files/2015/07/12/6357225885397633021910586515_ariana-grand-donut.0.0.png"
+	},
+	{
+		"gateName": "Nipplegate",
+		"category": "no",
+		"description": "Despite being one of the first big internet Gates, this definitely doesn't count as a coverup and it's only scandalous if you went to Brigham Young. No Gate.",
+		"link": "https://en.wikipedia.org/wiki/Lewinsky_scandal",
+		"image": "https://thegrio.files.wordpress.com/2014/01/nipple-gate.jpg?w=560"
+	},
+	{
+		"gateName": "Flakegate",
+		"category": "no",
+		"description": "What's this, some English shit? I dunno about that but pretty sure it's not a Gate.",
+		"link": "https://en.wikipedia.org/wiki/Cadbury_Snowflake#Flakegate",
+		"image": "http://2.bp.blogspot.com/-xuVu-Kr1YWI/UBZrLerYRrI/AAAAAAAAB-E/Nbj_eVx99Go/s1600/Anthea+Turner+and+Grant+Bovey+wedding.jpg"
+	},
+	{
+	    "gateName": "Bridgegate",
+	    "category": "yes",
+	    "description": "Writing from phone because STILL ON BRIDGE!! Gate AF.",
+	    "link": "https://en.wikipedia.org/wiki/Fort_Lee_lane_closure_scandal",
+	    "image": "http://thehilltalk.com/wp-content/uploads/2015/04/christie-1.jpg"
+	},
+	{
+	    "gateName": "Garglegate",
+	    "category": "no",
+	    "description": "Irish politician is drunk...nope.",
+	    "link": "http://www.thejournal.ie/brian-cowen-morning-ireland-drunk-hungover-2329647-Sep2015/",
+	    "image": "http://img2.thejournal.ie/inline/2329680/original/?width=630&version=2329680"
+	},
+	{
+	    "gateName": "Fajitagate",
+	    "category": "no",
+	    "description": "This is fucked up but if we let it be a Gate every time the cops beat up innocent people over some bullshit there won't be room for any other scandals. Gotta put my foot down and say 'No Gate'.",
+	    "link": "https://en.wikipedia.org/wiki/Fajitagate",
+	    "image": "http://korrekt.com/cases/2006/06.12.06_fajita_gate_civil_suit/06.12.06_fajita_gate_civil_suit_41000_awarded_snyder_santoro_KGO_0006.jpg"
+	},
+	{
+	    "gateName": "Pantigate",
+	    "category": "no",
+	    "description": "Saying some Irish dudes are homophobic should be about as controversial as saying they're <a href='/Garglegate'>drunk</a>.",
+	    "link": "https://en.wikipedia.org/wiki/Panti#Comments_about_homophobia_on_RT.C3.89",
+	    "image": "http://www.newstalk.com/content/000/images/000035/36978_54_news_hub_31716_656x500.jpg"
+	},
+	{
+	    "gateName": "Namagate",
+	    "category": "yes",
+	    "description": "While its Southern neighbours run around declaring frivolous Gates everytime a politician has a drink or gets his dick wet, Northern Ireland is used to serious bad shit going on and only time for real Gates. This is one of them. See also <a href='/Stormontgate'>Stormontgate</a>, which is about FUCKING TERRORIST SPIES, DUDE! Please particularly see it if you are a member of the Dublin press. These are what gates look like, guys.",
+	    "link": "https://en.wikipedia.org/wiki/Namagate",
+	    "image": "https://pbs.twimg.com/media/CPpg43LWwAE6L_C.jpg"
+	},
+	{
+	    "gateName": "Stormontgate",
+	    "category": "yes",
+	    "description": "Um...spies in parliament? Yeah. What a Gate!",
+	    "link": "https://en.wikipedia.org/wiki/Stormontgate",
+	    "image": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSHXnPs3W5Rvn4m7gPWITavjHC7ljzhFJDiURZNIxMMq_9QYdby"
+	},
+	{
+	    "gateName": "Lobbygate",
+	    "category": "yes",
+	    "description": "This is a great, old-school gate and also a classic entry in the ever popular dumb-guys-bragging-about-evil-shit-on-tape category. This was such a successful Gate that our star, Derek Draper came out of retirement ten years later for <a href='/Smeargate'>Smeargate</a>. Love this shit.",
+	    "link": "https://en.wikipedia.org/wiki/Derek_Draper#.27Lobbygate.27",
+	    "image": "http://frontierpsychiatrist.co.uk/wp-content/uploads/2009/04/draper-300x223.jpg"
+	},
+	{
+	    "gateName": "Blagojevichgate",
+	    "category": "yes",
+	    "description": "A brilliant throwback of a Gate in the dumb-guys-bragging-about-evil-shit-on-tape vein. So good, I'm letting it slide on the inability of subeditors to apply the -gate suffix in a way that didn't suck. Went with Blagojevichgate as the primary, since 'Blago-gate' is even worse and Obamagate...no...nice try Fox News, but no.",
+	    "link": "https://en.wikipedia.org/wiki/Rod_Blagojevich_corruption_charges",
+	    "image": "http://media.nbcchicago.com/images/620*501/suntimesblagoA.jpg"
+	},
+	{
+	    "gateName": "Blago-gate",
+	    "category": "no",
+	    "description": "This is a gate, but 'Blago-gate' is just terrible. Come on, guys, I'll admit there isn't a really good option for this but let's stick <a href='/Blagojevichgate'>Blagojevichgate</a> and maintain some shred of dignity.",
+	    "link": "https://en.wikipedia.org/wiki/Rod_Blagojevich_corruption_charges",
+	    "image": "http://media.nbcchicago.com/images/620*501/suntimesblagoA.jpg"
+	},
+	{
+	    "gateName": "Smeargate",
+	    "category": "yes",
+	    "description": "Setting up a whole website just to publish made-up shit about your political opponents definitely counts, so it pleases me to welcome <a href='/Lobbygate'>Derek Draper</a> to the very exclusive Double Gate Club! Congratulations, Derek!",
+	    "link": "https://en.wikipedia.org/wiki/Derek_Draper#LabourList_and_.27Smeargate.27",
+	    "image": "http://i.dailymail.co.uk/i/pix/2009/04/12/article-0-046A4653000005DC-972_468x408.jpg"
+	},
+	{
+	    "gateName": "Robogate",
+	    "category": "yes",
+	    "description": "Please put down your weapon. You have twenty seconds to comply. Really, though, calling up people you don't think will vote for you to lie about where the polling places are is both a Gate and a political strategy cribbed directly from a Roadrunner cartoon. Bad Canadians!",
+	    "link": "https://en.wikipedia.org/wiki/2011_Canadian_federal_election_voter_suppression_scandal",
+	    "image": "http://3.bp.blogspot.com/-UTNDtUSh4vE/T0gTc5qxAXI/AAAAAAAAAT4/E4r8ihWMsX4/s1600/VoteSupressor.jpg"
+	},
+	{
+	    "gateName": "Portraitgate",
+	    "category": "no",
+	    "description": "No. That's <a href='/Garglegate'>two</a> total bullshit non-Gates for Brian Cowen.",
+	    "link": "https://en.wikipedia.org/wiki/Brian_Cowen_nude_portraits_controversy",
+	    "image": "https://upload.wikimedia.org/wikipedia/en/c/c2/Brian_Cowen_nude_on_toilet_caricature.jpg"
+	},
+	{
+	    "gateName": "Sachsgate",
+	    "category": "no",
+	    "description": "English Asshole Pretending to be Spanish Secretly German Asshole Pretending to be Spanish is the only thing even close to a Gate here.",
+	    "link": "https://en.wikipedia.org/wiki/Andrew_Sachs#Prank_phone_call_controversy",
+	    "image": "http://proprofs-cdn.s3.amazonaws.com/images/QM/user_images/1864104/1445468331.jpg"
+	},
+	{
+	    "gateName": "Reutersgate",
+	    "category": "yes",
+	    "description": "Gates about keeping evil military shit out of the news are common enough. Adding extra fake evil military shit to the news is a Gate from a weird mirror universe.",
+	    "link": "https://en.wikipedia.org/wiki/Adnan_Hajj_photographs_controversy",
+	    "image": "https://upload.wikimedia.org/wikipedia/en/6/63/IAFplaneLebanon.jpg"
+	},
+	{
+	    "gateName": "Anchorgate",
+	    "category": "kinda",
+	    "description": "It would have been better if one of them had said 'Go fuck yourself, Karachi'.",
+	    "link": "https://en.wikipedia.org/wiki/Mediagate",
+	    "image": "http://insider.pk/wp-content/uploads/2012/06/283693_461731407170354_2041583926_n.jpg"
+	},
+	{
+	    "gateName": "Mediagate",
+	    "category": "kinda",
+	    "description": "See <a href='/Anchorgate'>Anchorgate</a>.",
+	    "link": "https://en.wikipedia.org/wiki/Mediagate",
+	    "image": "http://insider.pk/wp-content/uploads/2012/06/283693_461731407170354_2041583926_n.jpg"
+	},
+	{
+	    "gateName": "Memogate",
+	    "category": "yes",
+	    "description": "Yeah. Although, if this had been 2013 or later, it might more properly have been called Memoghazi. If you're looking for that other Memogate, try <a href='/Rathergate'>Rathergate</a>.",
+	    "link": "https://en.wikipedia.org/wiki/Memogate_(Pakistan)",
+	    "image": "http://www.pakistankakhudahafiz.com/pkkhnew/wp-content/uploads/2013/06/Hussain-Haqqani.jpg"
+	},
+	{
+	    "gateName": "Rathergate",
+	    "category": "yes",
+	    "description": "Oh, Daniel. Oh, Danny, boy. How did it ever come to this? You were there from the beginning. You beheld the <a href='/Watergate'>Father of All Gates</a>. Nixon couldn't fool you, but Microsoft Word could.",
+	    "link": "https://en.wikipedia.org/wiki/Killian_documents_controversy",
+	    "image": "http://cloudfront.mediamatters.org/static/uploader/image/2013/11/12/rather-investigation.jpg"
+	},
+	{
+	    "gateName": "Bigotgate",
+	    "category": "no",
+	    "description": "Gordon Brown calls old-ass English lady a bigot. That's not a Gate, but it is redundant.",
+	    "link": "https://en.wikipedia.org/wiki/United_Kingdom_general_election,_2010#Bigotgate",
+	    "image": "http://www.newsshopper.co.uk/resources/images/3646842.jpg"
+	},
+	{
+	    "gateName": "Betsygate",
+	    "category": "yes",
+	    "description": "Scandalous secretaries and politicians' wives are common gate components, but they're not usually the same person. Gotta love a Gate that shakes things up a bit. Plus Betsygate is just fun as fuck to say. Full points.",
+	    "link": "https://en.wikipedia.org/wiki/Betsygate",
+	    "image": "http://img.thesun.co.uk/aidemitlum/archive/00076/F_200403_march30ed_i_76973a.jpg"
+	},
+	{
+	    "gateName": "Angolagate",
+	    "category": "yes",
+	    "description": "Really, a Double Gate becaue who knew France still had guns?",
+	    "link": "https://en.wikipedia.org/wiki/Mitterrand%E2%80%93Pasqua_affair",
+	    "image": "http://referentiel.nouvelobs.com/file/1273092.jpg"
+	},
+	{
+	    "gateName": "Cablegate",
+	    "category": "yes",
+	    "description": "Yup. Secrets, lies, scandals, and, on top of everything else, a bunch of innocent Equadorian diplomatic staffers have been forced to hang out with Julian Assange for four years and counting. Won't someone think of them?",
+	    "link": "https://en.wikipedia.org/wiki/United_States_diplomatic_cables_leak",
+	    "image": "https://pmcdeadline2.files.wordpress.com/2012/04/julian__120413130100.jpg"
+	},
+	{
+	    "gateName": "Coingate",
+	    "category": "yes",
+	    "description": "'<em>Haha! You want us to invest all our money in Tom Noe's coin collection!? More like...Tom NO! Am I right?'</em></p><p>...is how this really should have gone. This is a Gate and just generally a buncha dumbfucks all around, really. Wow.",
+	    "link": "https://en.wikipedia.org/wiki/Coingate_scandal",
+	    "image": "http://www.toledoblade.com/image/2011/10/27/300x_b1cCM_z/Tom-Noe-at-Vintage-Coins-and-Collectibles-office.jpg"
+	},
+	{
+	    "gateName": "Dasukigate",
+	    "category": "kinda",
+	    "description": "I honestly don't know how to fit this one in. Embezzlement, sure, that's classic Gate fodder. But just walking into your country's Central Bank and walking out with bags full of cash is something else. I'm just a small time Gate Cop and this one's above my pay grade.",
+	    "link": "http://thenationonlineng.net/dasukigate-beyond-the-outrage-and-apart-from-the-legal-battle-what-is-to-be-done/",
+	    "image": "http://thenationonlineng.net/wp-content/uploads/2015/12/Dasuki-d.jpg"
+	},
+	{
+	    "gateName": "Donnygate",
+	    "category": "yes",
+	    "description": "Wow. You can't make this shit up. Unless you're on the Doncaster Council, in which case you can apparently make up just about anything as long as it's expensive.",
+	    "link": "http://www.theguardian.com/uk/2002/mar/13/society.politics",
+	    "image": "http://www.the-villager.co.uk/pictures/2003/20030209036_01.jpg"
+	},
+	{
+	    "gateName": "Dunagate",
+	    "category": "yes",
+	    "description": "Revolving, as it does, around the wiretapping of political enemies, this is about as close to the <a href='/Watergate'>original</a> as it gets. Also, clumsy early attempts to refer to this one as 'Budapest Watergate' really demonstrated the utility of the '-Gate' suffix at a crucial time. Well done, you good old Hungarian communists! Extra goulash for all!",
+	    "link": "https://en.wikipedia.org/wiki/Duna-gate",
+	    "image": "http://keyframe.nava.hu/service/gallery/keyframe/2015/01/21/m1-74004/m1-74004-01490000.jpg"
+	},
+	{
+	    "gateName": "Pastygate",
+	    "category": "no",
+	    "description": "This is too stupid for words. I wrote this one up because it's in Wikipedia but consider this your last warning, yes this means you Daily Mail. Just stop it. That said, hey George Osborne! Stop taxing delicious baked goods, you fat Benedict Cumberbatch-looking motherfucker!",
+	    "link": "https://en.wikipedia.org/wiki/Pasty_tax",
+	    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/George_Osborne_0437.jpg/440px-George_Osborne_0437.jpg"
+	},
+	{
+	    "gateName": "Pastagate",
+	    "category": "no",
+	    "description": "Canadian patriotism does manifest itself in some fucked up ways, but a mere policy disagreement is never a Gate, even one as dumb as this.",
+	    "link": "https://en.wikipedia.org/wiki/Pastagate",
+	    "image": "http://4.bp.blogspot.com/-7qojzrceYEg/UUuTLeel2hI/AAAAAAAAANo/aKbQhVIFluE/s1600/pastagate2.jpg"
+	},
+	{
+	    "gateName": "Pemexgate",
+	    "category": "yes",
+	    "description": "A genuine Mexican Gate! Nice to know that the US doesn't have a monopoly on evil oil companies. How's that wall coming along?",
+	    "link": "https://en.wikipedia.org/wiki/Pemexgate",
+	    "image": "http://revoluciontrespuntocero.com/wp-content/uploads/2013/08/prrista.jpg"
+	},
+	{
+	    "gateName": "Fallagate",
+	    "category": "yes",
+	    "description": "Haha! The old Trying-Too-Hard-Not-Be-a-Gate-gate! Not too many of these. Top marks, Guernsey.Also, States of Deliberation is a delightfully obtuse name for a parliament. Keep it up. I'm going to visit one day.",
+	    "link": "https://en.wikipedia.org/wiki/Fallagate",
+	    "image": "http://ichef-1.bbci.co.uk/news/660/media/images/81435000/jpg/_81435008_stu.jpg"
+	},
+	{
+	    "gateName": "Gategate",
+	    "category": "yes",
+	    "description": "<p>Only the English could spin someone being a bit rude into a genuine full-blown Gate, but that's exactly what this is. This shit is why we don't let them own other countries anymore.</p><p>Also known as both 'Plebgate' AND 'Plodgate'. Fleet Street, please try to keep it to one name per Gate. You're making my job harder than it needs to be.</p>",
+	    "link": "https://en.wikipedia.org/wiki/Plebgate",
+	    "image": "http://i.telegraph.co.uk/multimedia/archive/02368/page2_2368165a.jpg"
+	},
+	{
+	    "gateName": "Plebgate",
+	    "category": "yes",
+	    "description": "See <a href='Gategate'>Gategate</a>.",
+	    "link": "https://en.wikipedia.org/wiki/Plebgate",
+	    "image": "http://i.telegraph.co.uk/multimedia/archive/02368/page2_2368165a.jpg"
+	},
+	{
+	    "gateName": "Plodgate",
+	    "category": "yes",
+	    "description": "See <a href='Gategate'>Gategate</a>.",
+	    "link": "https://en.wikipedia.org/wiki/Plebgate",
+	    "image": "http://i.telegraph.co.uk/multimedia/archive/02368/page2_2368165a.jpg"
+	},
+	{
+	    "gateName": "Muldergate",
+	    "category": "yes",
+	    "description": "I don't know for sure if this is a Gate but I WANT TO BELIEVE!!<br />BAM!<br />Really, though, this is pretty bad stuff. It's basically about how this Mulder guy bribed the press to tell lies. Or, to put it another way, made sure that the truth was not out there. SOMEONE STOP ME!!!",
+	    "link": "https://en.wikipedia.org/wiki/Muldergate_Scandal",
+	    "image": "http://themediaonline.co.za/wp-content/uploads/2013/10/Screen-Shot-2013-10-28-at-10.56.52-AM.png"
+	},
+	{
+	    "gateName": "Closetgate",
+	    "category": "no",
+	    "description": "Being mean to Tom Cruise is not now, nor will it ever be, a Gate. We're all sad about Chef, though.",
+	    "link": "https://en.wikipedia.org/wiki/Trapped_in_the_Closet_(South_Park)#Closetgate",
+	    "image": "http://www.blogcdn.com/www.mandatory.com/media/2013/09/trappedintheclosettomcruise.jpg"
+	},
+	{
+	    "gateName": "Climategate",
+	    "category": "kinda",
+	    "description": "Not the climate stuff, but, I mean...thousands of faculty emails and no one is fucking? That's definitely suspicious. Get it together, Climate Scientists.",
+	    "link": "https://en.wikipedia.org/wiki/Climatic_Research_Unit_email_controversy",
+	    "image": "http://www.infiniteunknown.net/wp-content/uploads/2009/12/daily-express-climate-change-fraud.jpg"
+	},
+	{
+	    "gateName": "Murdochgate",
+	    "category": "yes",
+	    "description": "The most Gate. Gates within Gates. This one also goes by Hackgate, but at Gate Crimes, we say 'Put your name on it!'.",
+	    "link": "https://en.wikipedia.org/wiki/News_International_phone_hacking_scandal",
+	    "image": "http://jamaica-gleaner.com/sites/default/files/styles/jg_article_image/public/article_images/2011/07/17/bc-eu-britain-phone-hackin.jpg?itok=fCdca-Jd"
+	},
+	{
+	    "gateName": "Chinagate",
+	    "category": "yes",
+	    "description": "I mean I don't know, this is boring money stuff, but it has Bob Woodward in it and he's kinda the gate king, so I'mma go ahead and say this counts.",
+	    "link": "https://en.wikipedia.org/wiki/1996_United_States_campaign_finance_controversy",
+	    "image": "http://www.nwotoday.com/images/Clinton-chung.jpg"
+	},
+	{
+	    "gateName": "Filegate",
+	    "category": "no",
+	    "description": "There's a lot of Clinton Gates so there's a higher bar here. This needs to be either more definite or more juicy. As it is, I got no time for it. Props for giving Kenneth Starr something to do, though.",
+	    "link": "https://en.wikipedia.org/wiki/White_House_FBI_files_controversy",
+	    "image": "https://i.ytimg.com/vi/WUbxvZl-aNQ/hqdefault.jpg"
+	},
+	{
+	    "gateName": "Lovegate",
+	    "category": "redirect",
+	    "description": "I have two gates for you. Behind <a href='/Lovegate(Bachelor)'>gate number one</a>, someone is telling two different women he loves them in rapid succession. Behind <a href='/Lovegate(Brexit)'>gate number two</a>, English people are doing what they do. Make your choice.",
+	    "link": "/",
+	    "image": "/images/logono.png"
+	},
+	{
+	    "gateName": "Lovegate (Bachelor)",
+	    "category": "yes",
+	    "description": "Look, to the outside world, no, but in the context of The Bachelor, this is about as big as Gates get. The Bachelor isn't supposed to tell anyone they love them until the end! Saying it early - and to TWO DIFFERENT CHICKS - just isn't how it's done. Ben was the first contestant in Bachelor history to defy this convention. Will he be the last?",
+	    "link": "https://www.theodysseyonline.com/article/whats-wrong-bachelor/362777",
+	    "image": "http://i.perezhilton.com/wp-content/uploads/2016/03/the-bachelor-1__oPt.jpg",
+	    "easterEgg": "true"
+	},
+	{
+	    "gateName": "Lovegate (Brexit)",
+	    "category": "no",
+	    "description": "I mean, it's a gate...but it's not a Gate. A wonderful sentiment, though.",
+	    "link": "https://twitter.com/ItsjonoJono/status/740997242987876352",
+	    "image": "https://pbs.twimg.com/media/Cki0PaVWEAAFxo3.jpg:small",
+	    "easterEgg": "true"
+	},
+	{
+	    "gateName": "Gloriagate",
+	    "category": "yes",
+	    "description": "I'm highly in favor of any scandal for which you can <a href='https://youtu.be/7UcnUaH7fAw'>download ringtones</a>.",
+	    "link": "https://en.wikipedia.org/wiki/Hello_Garci_scandal",
+	    "image": "http://photos1.blogger.com/blogger/5079/3502/320/garci.jpg"
+	},
+	{
+	    "gateName": "Grangegate",
+	    "category": "yes",
+	    "description": "We knew it was possible to bribe a politician with wine. We just didn't realize you could do it with Australian wine.",
+	    "link": "https://en.wikipedia.org/wiki/Grangegate",
+	    "image": "http://www.gbcast.com/livewriter/nsw/wollongong/TheInternetHasACrackAtBarryOFarrellWithS_6F0E/BlT6CMnCMAIPGOr.jpg"
+	},
+	{
+	    "gateName": "Guptagate",
+	    "category": "yes",
+	    "description": "Wow! What fucking assholes! The actual incident coined 'Guptagate' is just one fairly minor chapter in a long story of rich people doing exactly whatever they feel like, but it qualifies for Gatehood by virtue of sheer 'fuck you' brazenness.",
+	    "link": "https://en.wikipedia.org/wiki/Gupta_family#Guptagate",
+	    "image": "https://africajournalismtheworld.files.wordpress.com/2013/05/m_130505st.jpg"
+	},
+	{
+	    "gateName": "Gulargate",
+	    "category": "yes",
+	    "description": "Money, kidnapping, revenge, murder. Like sands through the hourglass, so are the Gates of our lives.",
+	    "link": "http://www.theatlantic.com/international/archive/2013/01/how-to-buy-a-seat-in-azerbaijans-parliament/267065/",
+	    "image": "http://contact.az/mmedia/2013/main/010400023527.jpg"
+	},
+	{
+	    "gateName": "Iraqgate",
+	    "category": "no",
+	    "description": "Finnish Prime Minister Jäätteenmäki was ultimately found not guilty of illegally obtaining secret documents, but guilty of recklessly wasting the alphabet.",
+	    "link": "https://en.wikipedia.org/wiki/Iraq_leak",
+	    "image": "http://www.helsinkitimes.fi/images/2016/feb/jaeaetteenmaeki_anneli-too_much.jpg"
+	},
+	{
+	    "gateName": "Contragate",
+	    "category": "yes",
+	    "description": "Reagan's heart and best intentions told us that this was not a Gate. But the facts and the evidence told us that it was.",
+	    "link": "https://en.wikipedia.org/wiki/Iran–Contra_affair",
+	    "image": "https://s-media-cache-ak0.pinimg.com/236x/f4/b9/53/f4b953fd2c8e35faae4847a55637f398.jpg"
+	},
+	{
+	    "gateName": "Irangate",
+	    "category": "yes",
+	    "description": "See <a href='/Contragate'>Contragate</a>.",
+	    "link": "https://en.wikipedia.org/wiki/Iran–Contra_affair",
+	    "image": "https://s-media-cache-ak0.pinimg.com/236x/f4/b9/53/f4b953fd2c8e35faae4847a55637f398.jpg"
+	},
+	{
+	    "gateName": "Irisgate",
+	    "category": "yes",
+	    "description": "No doubt, this is a Gate, but let's pause to give a little credit to Kirk McCambley. He could easily have been coasting by being a hot 19 year-old dude, skipping Intro to Statistics to smoke weed with high school girls. Instead he's starting his own business. What a go-getter!",
+	    "link": "https://en.wikipedia.org/wiki/Irisgate",
+	    "image": "https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pixies/2010/1/8/1262988505256/Kirk-McCambley-001.jpg?w=620&q=55&auto=format&usm=12&fit=max&s=a59aed054a0ef6cf1ca61316701e4b10"
+	},
+	{
+	    "gateName": "Koreagate",
+	    "category": "yes",
+	    "description": "As the first post-Watergate Gate this was, in many ways, where the magic began. Nice of Democrats to pick up where the Republicans left off. Anyone else remember bipartisanship?",
+	    "link": "https://en.wikipedia.org/wiki/Koreagate",
+	    "image": "http://america.pink/images/2/4/7/1/9/2/3/en/1-koreagate.jpg"
+	},
+	{
+	    "gateName": "Mammygate",
+	    "category": "yes",
+	    "description": "The sun shines west<br />The sun shines east<br />Don't say racist shit<br />To your husband's employees.",
+	    "link": "http://kcur.org/post/council-rejects-funkhouser-mammygate-solution#stream/0",
+	    "image": "http://media2.kshb.com//photo/migration/2010/04/11/35FB93A14A4FAE4D9DAB25C983BAC1F8_20100411011745_640_480.JPG"
+	},
+	{
+	    "gateName": "Officegate",
+	    "category": "kinda",
+	    "description": "Look, this is just too boring to qualify as a full-blown Gate, but it gets half marks just for making the BBC write the headline <a href='http://news.bbc.co.uk/2/hi/uk_news/scotland/1640711.stm'>First Minister Denies Office Fiddle</a>.",
+	    "link": "https://en.wikipedia.org/wiki/Officegate",
+	    "image": "http://news.bbc.co.uk/olmedia/1860000/images/_1862822_leaving300.jpg"
+	},
+	{
+	    "gateName": "Panamagate",
+	    "category": "yes",
+	    "description": "A bunch of smaller Gates wrapped up in one huge Gate. A Clustergate?",
+	    "link": "https://en.wikipedia.org/wiki/Panama_Papers",
+	    "image": "http://media1.s-nbcnews.com/j/msnbc/components/video/__new/2016-04-04t23-10-14-233z--1280x720.nbcnews-ux-1080-600.jpg"
+	},
+	{
+	    "gateName": "Stargate",
+	    "category": "no",
+	    "description": "Probably not a real gate...right?",
+	    "link": "",
+	    "image": "https://upload.wikimedia.org/wikipedia/en/9/90/Sg1stargatefront.jpg",
+	    "easterEgg": "true"
+	},
+	{
+	    "gateName": "Porngate",
+	    "category": "no",
+	    "description": "Look, we all get bored in parliament, and we all have our own ways of dealing with it.",
+	    "link": "https://en.wikipedia.org/wiki/Karnataka_video_clip_controversy",
+	    "image": "http://timesofindia.indiatimes.com/thumb/msid-11812931,width-400,resizemode-4/11812931.jpg"
+	},
+	{
+	    "gateName": "Rinkagate",
+	    "category": "yes",
+	    "description": "Someone killed a dog and there's a dude called Auberon in it. Nasty, bad English Gate.",
+	    "link": "https://en.wikipedia.org/wiki/Thorpe_affair",
+	    "image": "https://upload.wikimedia.org/wikipedia/en/e/e1/Thorpe%2C_Daily_Mirror_21-11-78.jpg"
+	},
+	{
+	    "gateName": "Shawnigate",
+	    "category": "kinda",
+	    "description": "This looks fishy but too bored to research more because Canada.",
+	    "link": "https://en.wikipedia.org/wiki/Shawinigate",
+	    "image": "http://images.lpcdn.ca/641x427/200904/02/60631-ancien-premier-ministre-canada-jean.jpg"
+	},
+	{
+	    "gateName": "Chitlingate",
+	    "category": "yes",
+	    "description": "Poor Watermelon Sam!",
+	    "link": "https://www.netflix.com/title/70242311",
+	    "image": "https://s.yimg.com/ny/api/res/1.2/.3QfFa1w2DmpydH8Wrxu.A--/YXBwaWQ9aGlnaGxhbmRlcjtzbT0xO3c9NTQwO2g9MzAyO2lsPXBsYW5l/https://67.media.tumblr.com/48e805651e74c1142fa7f85f41f7e644/tumblr_inline_o9h2cyDlTl1tdxcm2_540.png.cf.jpg"
+	},
+	{
+	    "gateName": "Choppergate",
+	    "category": "yes",
+	    "description": "",
+	    "link": "",
+	    "image": "http://vignette2.wikia.nocookie.net/gameshows/images/d/d8/Jeopardy!_Season_27_Daily_Double_Logo.jpg/revision/latest?cb=20121108082603"
+	},
+	{
+	    "gateName": "",
+	    "category": "",
+	    "description": "",
+	    "link": "",
+	    "image": ""
+	},
+	{
+	    "gateName": "",
+	    "category": "",
+	    "description": "",
+	    "link": "",
+	    "image": ""
+	},
+	{
+	    "gateName": "",
+	    "category": "",
+	    "description": "",
+	    "link": "",
+	    "image": ""
+	},
+	{
+	    "gateName": "",
+	    "category": "",
+	    "description": "",
+	    "link": "",
+	    "image": ""
+	},
+	{
+	    "gateName": "",
+	    "category": "",
+	    "description": "",
+	    "link": "",
+	    "image": ""
+	},
+	{
+	    "gateName": "",
+	    "category": "",
+	    "description": "",
+	    "link": "",
+	    "image": ""
+	},
+	{
+	    "gateName": "",
+	    "category": "",
+	    "description": "",
+	    "link": "",
+	    "image": ""
+	},
+	{
+	    "gateName": "",
+	    "category": "",
+	    "description": "",
+	    "link": "",
+	    "image": ""
+	},
+	{
+	    "gateName": "",
+	    "category": "",
+	    "description": "",
+	    "link": "",
+	    "image": ""
+	},
+	{
+	    "gateName": "",
+	    "category": "",
+	    "description": "",
+	    "link": "",
+	    "image": ""
+	},
+	{
+	    "gateName": "",
+	    "category": "",
+	    "description": "",
+	    "link": "",
+	    "image": ""
+	},
+	{
+	    "gateName": "",
+	    "category": "",
+	    "description": "",
+	    "link": "",
+	    "image": ""
+	},
+	{
+	    "gateName": "",
+	    "category": "",
+	    "description": "",
+	    "link": "",
+	    "image": ""
+	},
+	{
+	    "gateName": "Billygate",
+	    "category": "yes",
+	    "description": "When it's so bad, your own brother disowns you...that shit is a Gate.",
+	    "link": "https://en.wikipedia.org/wiki/Billy_Carter#Libya",
+	    "image": "http://www.oldpoliticals.com/ItemImages/000001/1306a_lg.jpeg"
+	},
+	{
+	    "gateName": "Brothelgate",
+	    "category": "yes",
+	    "description": "Sex AND Lies! Classic gate in its own right and a Double Gate for happening in Limerick, causing unwelcome satirical poetry.",
+	    "link": "https://en.wikipedia.org/wiki/Willie_O%27Dea_affidavit_incident",
+	    "image": "http://lh4.ggpht.com/-8gd1f0VF-iI/S6K4UI0dt0I/AAAAAAAAAFI/hfELbjgLrFo/willieleader1.jpg"
+	},
+	{
+	    "gateName": "Corngate",
+	    "category": "kinda",
+	    "description": "Has all the elements of a Gate, except for happening in New Zealand which may or may not be a real place.",
+	    "link": "https://en.wikipedia.org/wiki/Corngate",
+	    "image": "https://c2.staticflickr.com/2/1467/24431899055_42c37b4340.jpg"
+	},
+	{
+	    "gateName": "Coalgate",
+	    "category": "no",
+	    "description": "Massive mismanagement of public resources and basically theft of billions of dollars from poor people...but disqualified because sounds like toothpaste. No Gate.",
+	    "link": "https://en.wikipedia.org/wiki/Indian_coal_allocation_scam",
+	    "image": "http://img01.ibnlive.in/ibnlive/uploads/2012/09/coalgate_marya_live.jpg"
+	},
+	{
+	    "gateName": "Debategate",
+	    "category": "yes",
+	    "description": "Theft of political documents makes this pretty much a textbook Gate. Plus it involves Jimmy Carter, who is kind of a <a href='/billygate'>magnet</a> for Gates, poor schmuck.",
+	    "link": "https://en.wikipedia.org/wiki/Debategate",
+	    "image": "http://www.pritchettcartoons.com/jeremy/debate_gate.gif"
+	},
+	{
+	    "gateName": "Nannygate",
+	    "category": "kinda",
+	    "description": "Ummm...which one? <ul><li><strong>1993</strong> - Well, Clinton did say he was going to assemble a cabinet that 'looked like America', so it was only fair that in include some people fucking over poor immigrants. A True Gate.</li><li><strong>2006</strong> - This is a Gate but come on, a half-dozen nannies and no one fucked any of them? The Swedes just don't do Gates as good as us.</li><li><strong>2015</strong> - Justin Trudeau is definitely due a Gate one of these days. Just look at him, he's definitely fucking people. This isn't it, though. No Gate.</li>",
+	    "link": "https://en.wikipedia.org/wiki/Nannygate_(disambiguation)",
+	    "image": "http://images4.fanpop.com/image/photos/17000000/The-Nanny-HQ-the-nanny-17083910-1418-2128.jpg"
+	},
+	{
+	    "gateName": "Wormgate",
+	    "category": "kinda",
+	    "description": "Two things I don't give a fuck about: Australia, and Worms. Might be a Gate but I'm not finding out.",
+	    "link": "https://en.wikipedia.org/wiki/National_Press_Club_(Australia)#.27Wormgate.27_.E2.80.93_2007_Federal_Election_Leaders_Debate_Controversy",
+	    "image": "http://www.abc.net.au/news/image/376172-3x2-340x227.jpg"
+	},
+	{
+	    "gateName": "Nailpolishgate",
+	    "category": "yes",
+	    "description": "Nailpolishgate: HOT GIRL GATE ALERT! If Lauren Conrad really spoke this eloquently on the first try, the rest of us should have our college degrees revoked.  Gate-iest Gate!",
+	    "link": "http://www.people.com/people/article/0,,20424453,00.html",
+	    "image": "http://1.bp.blogspot.com/_M2Q_weJutuI/R17FyCS0aQI/AAAAAAAAE5Y/csE-nqpqaDA/s400/the-hills-finale-party.jpg"
+	},
+	{
+	    "gateName": "Wintergate",
+	    "category": "yes",
+	    "description": "MARY GATE AND ASHLEY! YES, there's a New York City conspiracy currently underway to suppress the talents of writer/comedian Emily Winter.",
+	    "link": "http://emilymckennawinter.com/",
+	    "image": "http://images1.miaminewtimes.com/imager/u/745xauto/7798300/feature1-2-30bbc4dd97b4e0cc.jpg",
+	    "easterEgg": "true"
+	},
+	{
+	    "gateName": "Hairgate",
+	    "category": "no",
+	    "description": "This isn't a Gate, it's an expensive haircut on a slow newsday. MOVE ALONG, JOURNALIST LEECHES.",
+	    "link": "https://en.wikipedia.org/wiki/Bill_Clinton_haircut_controversy",
+	    "image": "http://img.timeinc.net/time/photoessays/2010/top10_hair/bill_clinton.jpg"
+	},
+	{
+	    "gateName": "Fangate",
+	    "category": "no",
+	    "description": "Fails to meet Gate standards due to no coverup involved. Rick Scott's a dick, though.",
+	    "link": "http://www.npr.org/sections/thetwo-way/2014/10/17/357014239/how-the-florida-governors-debate-became-fangate",
+	    "image": "https://i.ytimg.com/vi/P70bDfF4hyM/maxresdefault.jpg"
+	},
+	{
+	    "gateName": "Celebgate",
+	    "category": "yes",
+	    "description": "Some nice famous ladies just trying to keep those titties COVERED UP and some sad computer dweezles gotta go UNCOVER them?! Yeah it's a Gate, a Gate of the misogyniest, boobiest kind.",
+	    "link": "https://en.wikipedia.org/wiki/ICloud_leaks_of_celebrity_photos",
+	    "image": "https://enhancedviewhd.files.wordpress.com/2014/09/celebgate-apple-investigacion-3.png"
+	},
+	{
+	    "gateName": "Camillagate",
+	    "category": "yes",
+	    "description": "Yo, this a Gate but what the HELL, CHUCKIE. How's some old prince ass trying to cheat on Diana with such a square ass potato? Hit up that Kylie Minogue AT LEAST.",
+	    "link": "https://en.wikipedia.org/wiki/Camilla,_Duchess_of_Cornwall#Relationship_with_the_Prince_of_Wales",
+	    "image": "http://www.private-eye.co.uk/pictures/covers/full/812_big.jpg"
+	},
+	{
+	    "gateName": "Squidgygate",
+	    "category": "yes",
+	    "description": "This is a Gate even though it sounds like a party for octopi who want to fart on each other. Here's to princess Di's extramarrital affair. Well deserved!",
+	    "link": "http://www.telegraph.co.uk/news/uknews/1575117/Dianas-Squidgygate-tapes-leaked-by-GCHQ.html",
+	    "image": "http://i.dailymail.co.uk/i/pix/2008/01_02/diana090108DM_468x351.jpg"
+	},
+	{
+	    "gateName": "Ponytailgate",
+	    "category": "no",
+	    "description": "This IS a Gate IF YOU'RE IN SECOND GRADE, SON. No one should put their grimy fingers on other people without permission, but a ponytail tug is lame AF and can't be a Gate.",
+	    "link": "http://www.theguardian.com/commentisfree/2015/apr/24/ponytailgate-john-key-new-zealand-prime-minister",
+	    "image": "http://i.dailymail.co.uk/i/pix/2015/04/27/07/280C0E6400000578-0-image-a-1_1430115264185.jpg"
+	},
+	{
+	    "gateName": "Tigergate",
+	    "category": "kinda",
+	    "description": "Cheating isn't a Gate, but the sheer amount of fucking that took place pushes this Tiger Woods story into the \"maybe\" category.",
+	    "link": "https://en.wikipedia.org/wiki/Tiger_Woods#Infidelity_scandal_and_fallout",
+	    "image": "http://faraitoday.com/wp-content/uploads/2010/03/Tiger-Interview-1.jpg"
+	},
+	{
+	    "gateName": "Utegate",
+	    "category": "no",
+	    "description": "Utegate? No, YOU DA GATE.",
+	    "link": "https://en.wikipedia.org/wiki/Utegate",
+	    "image": "http://www.thefatwebsite.com/wp-content/uploads/utegate.jpg"
+	},
+	{
+	    "gateName": "Twirlgate",
+	    "category": "no",
+	    "description": "THIS IS NOT A GATE, BUT THIS MAN IS A STEAMING PILE OF SHIT AND SHOULD BE EXILED TO A GARBAGE DUMP.",
+	    "link": "http://www.telegraph.co.uk/women/womens-health/11367270/Eugenie-Bouchard-and-Twirlgate-Men-like-this-help-women-to-hate-sport.html",
+	    "image": "http://fifthslam.com/wp-content/uploads/2015/01/Eugenie-Bouchard-twirl.jpg"
+	},
+	{
+	    "gateName": "Derpgate",
+	    "category": "no",
+	    "description": "Wives are scandalous but not because they are derpy. This is just who they are.",
+	    "link": "http://nymag.com/daily/intelligencer/2013/06/derp-meaning-origin.html",
+	    "image": "https://scontent-iad3-1.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/13087722_10100627205357396_7486313069853057902_n.jpg?oh=d1c7e61bc6cd82131b988814e71a7872&oe=57B8293B",
+	    "easterEgg": "true"
+	},
+	{
+	    "gateName": "Bingogate",
+	    "category": "no",
+	    "description": "Honestly, the real Gate is that aparrently Canadian elections can be financed with Bingo money. No wonder they have proper healthcare and gun control and shit.",
+	    "link": "http://www.cbc.ca/news/canada/man-behind-bingogate-pleads-guilty-1.188366",
+	    "image": "https://i.ytimg.com/vi/m95gJRbHXIc/hqdefault.jpg"
+	},
+	{
+	    "gateName": "Cashgate",
+	    "category": "yes",
+	    "description": "Double Gate, can't lie. One, because holy shit this is fucked up and two because I had to go look up where Malawi was. I'm sorry.",
+	    "link": "https://en.wikipedia.org/wiki/Capital_Hill_Cashgate_Scandal",
+	    "image": "https://forum.assetrecovery.org/sites/collective.localhost/files/3128458100_595a410784.jpg"
+	},
+	{
+	    "gateName": "Bottlegate",
+	    "category": "no",
+	    "description": "Boring and stupid. Not a Gate. More like a bedtime story.",
+	    "link": "https://en.wikipedia.org/wiki/Terry_McAulay#.22Bottlegate.22_incident",
+	    "image": "http://image.cleveland.com/home/cleve-media/width960/img/plain-dealer/photo/2014/12/15/bottlegate5jpg-d07438bc7609c7ec.jpg"
+	}
+]

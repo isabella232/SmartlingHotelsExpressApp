@@ -1,0 +1,13 @@
+[
+  "Hello ",
+  ", ",
+  "You are booking a room at: ",
+  "For a total of: ",
+  " night(s)",
+  "At a price of: ",
+  "$",
+  " per night",
+  "For a total price of: ",
+  "$",
+  "Click This Button to Confirm Your Room Reservation"
+]

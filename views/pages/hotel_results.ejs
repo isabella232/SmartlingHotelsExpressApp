@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+    <% include ../partials/head.ejs %>
+    <% include ../partials/opengraph.ejs %>
+
+    <script>
+        $(document).ready(function(){
+            $('#returnToSearch').remove();
+            $('#selector').on("change", function(){
+                var str = $('#selector').val();
+                $('#findHotels').prop("href", "/browse/" + str);
+            });
+        });
+    </script>
+
+</head>
+<body>
+
+<%include ../partials/pageheader.ejs%>
+<%var hotel = {"prevLink":""}%>
+<%include ../partials/browse_form.ejs%>
+
+<div class="container">
+
+    <!-- Page Heading -->
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="h1 col-md-8">
+                Showing hotels located in "<%= hotels[0].address.city + ", " + hotels[0].address.state%>"
+            </div>
+            <% var num = hotels.length;%>
+            <div class="h1 col-md-3 col-md-offset-1 text-right">
+                <small><%= num%> of <%= num%> results shown.</small>
+            </div>
+        </div>
+    </div>
+    <!-- /.row -->
+
+    <hr>
+
+    <% include ../partials/result.ejs %>
+
+    <!-- Pagination -->
+    <div class="row text-center">
+        <div class="col-lg-12">
+            <ul class="pagination">
+                <li>
+                    <a href="#">«</a>
+                </li>
+                <li class="active">
+                    <a href="#">1</a>
+                </li>
+                <li>
+                    <a href="#">»</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /.row -->
+
+    <hr>
+</div>
+
+<% include ../partials/footer.ejs%>
+</body>
+</html>

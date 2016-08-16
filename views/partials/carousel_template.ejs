@@ -1,0 +1,33 @@
+<% var imgCarousel = hotel.imgCarousel;%>
+<div class="carousel-holder">
+    <div id="carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <% for(var i = 0; i < imgCarousel.length; i++){%>
+                <% if (i === 0){ %>
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <% } else {%>
+                    <li data-target="#carousel" data-slide-to="<%= i%>" class=""></li>
+                <% }%>
+            <% } %>
+        </ol>
+        <div class="carousel-inner">
+            <% for(var i = 0; i < imgCarousel.length; i++){%>
+                <% if (i === 0){ %>
+                    <div class="item active">
+                        <img class="slide-image img-responsive carousel-inner-content" src="/img/<%- imgCarousel[i]%>" alt="">
+                    </div>
+                <% } else { %>
+                    <div class="item">
+                        <img class="slide-image img-responsive carousel-inner-content" src="/img/<%- imgCarousel[i]%>" alt="">
+                    </div>
+                <% }%>
+            <% } %>
+        </div>
+        <a class="left carousel-control" href="#carousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="right carousel-control" href="#carousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>

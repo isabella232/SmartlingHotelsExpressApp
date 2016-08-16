@@ -1,0 +1,61 @@
+<!-- Modal -->
+<div id="modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">Book a Room at <%= hotel.name %></h4>
+            </div>
+            <div class="modal-body">
+                <form role="form" action="/<%= hotel.link %>/book">
+
+                    <!-- First/Last Name -->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="form-group col-md-6">
+                                <label for="firstName">First Name:</label>
+                                <input name="firstName" id="firstName" class="form-control" type="text" required>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="lastName">Last Name:</label>
+                                <input name="lastName" id="lastName" class="form-control" type="text" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-12">
+                                <label for="email">Email Address</label>
+                                <input name="email" id="email" class="form-control"
+                                       type="text" required>
+                            </div>
+                        </div>
+
+                        <!--Number of Days-->
+                        <div class="row">
+                            <div class="form-group form-inline col-lg-12">
+                                <label for="spinner" style="margin-right: 10px;">How many nights will you be
+                                    staying?</label>
+                                <input class="form-control text-center" id="spinner" name="nights" type="number"
+                                       min="1"
+                                       value="1" required>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--Submit Shadow-->
+                    <button id="submit-form" type="submit" style="display: none;"></button>
+
+                </form>
+            </div>
+            <div class="modal-footer">
+                <div>
+                    <label for="submit-form" class="btn btn-primary">Confirm</label>
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

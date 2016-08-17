@@ -1,7 +1,6 @@
 {
 "smartling": {
   "translate_paths": [
-    {"path": "hotels/name"},
     {"path": "hotels/rooms"},
     {"path": "hotels/price"},
     {"path": "hotels/description1"},

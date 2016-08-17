@@ -1,5 +1,11 @@
-[
-  {"txt":"Please input your location.", "link":""},
-  {"txt":"New York, NY", "link": "New_York"},
-  {"txt":"Boston, MA", "link": "Boston"}
-]
+{
+  "smartling": {
+    "translate_paths":
+      {"path": "locations/text"}
+  },
+  "locations": [
+    {"txt": "","link": ""},
+    {"txt": "New York, NY", "link": "New_York"},
+    {"txt": "Boston, MA", "link": "Boston"}
+  ]
+}

@@ -24,12 +24,12 @@ var supportedLocales = ["en", "es"];
 app.use(locale(supportedLocales));
 
 
-/*
- var fileContentsEnglish = fs.readFileSync("./translations/en.po");
+
+ var fileContentsEnglish = fs.readFileSync("./data/strings/en.po");
  gt.addTextdomain("en", fileContentsEnglish);
- var fileContentsSpanish = fs.readFileSync("./translations/es.po");
+ var fileContentsSpanish = fs.readFileSync("./data/strings/es.po");
  gt.addTextdomain("es", fileContentsSpanish);
- */
+
 
 // Let EJS templates use Gettext and sprintf
 app.use(function (req, res, next) {
@@ -46,7 +46,7 @@ var meta = JSON.parse(fs.readFileSync('./data/strings/en/meta.json', 'utf8'));
 var data = JSON.parse(fs.readFileSync('./data/strings/en/data.json', 'utf8'));
 function getHotels(request) {
     var path = './data/strings/' + request.locale + '/hotels.json';
-    return JSON.parse(fs.readFileSync(path, 'utf8'))
+    return JSON.parse(fs.readFileSync(path, 'utf8')).hotels;
 };
 var checkout = JSON.parse(fs.readFileSync('./data/strings/en/checkout.json', 'utf8'));
 var locations = JSON.parse(fs.readFileSync('./data/strings/en/locations.json', 'utf8'));
@@ -68,14 +68,23 @@ app.get('/browse/:city', function (request, response) {
             results.push(hotel);
         }
     }
+
+    var currentLocation = "";
+    for (var i = 0; i < locations.length; i++){
+        if(locations[i].link === city){
+            currentLocation = locations[i].txt;
+            break;
+        }
+    }
+
     if (results.length > 0) {
         titleText = meta.browse.titleText;
-        description = meta.browse.results + results[0].address.city + ", " + results[0].address.state;
+        var description = sprintf(gt.gettext('SmartlingHotels is currently displaying all hotels present in the SmartlingHotels Database that are located in the area of: %s'), currentLocation);
         response.render('pages/hotel_results', {
             nav: nav,
             hotels: results,
             locations: locations,
-            city: city,
+            city: currentLocation,
             titleText: titleText,
             description: description
 

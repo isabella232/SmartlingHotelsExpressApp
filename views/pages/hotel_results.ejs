@@ -27,8 +27,7 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="h1 col-md-8">
-                <%= sprintf(gt.gettext('Showing hotels located in \"%s, %s\"'), hotels[0].address.city, hotels[0].address.state) %>
-                <!--Showing hotels located in "<%= /* hotels[0].address.city + ", " + hotels[0].address.state */ %>"-->
+                <%= sprintf(gt.gettext('Showing hotels located in: "%s"'), city) %>
             </div>
             <% var num = hotels.length; %>
             <div class="h1 col-md-3 col-md-offset-1 text-right">

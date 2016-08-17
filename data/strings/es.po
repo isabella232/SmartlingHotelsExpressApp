@@ -23,39 +23,44 @@ msgid ""
 "million accommodations, restaurants and attractions. The sites operate in "
 "800 markets worldwide. SmartlingHotels: Get the best rooms for the best "
 "prices!"
-msgstr ""
+msgstr "SmartlingHotels® es sitio de viajes más grande del mundo, que permite a los viajeros a utilizar todo el potencial de cada viaje. SmartlingHotels proporciona"
+" a las personas con las recomendaciones de millones de viajeros, además de una multitud de opciones de viaje y características de planificación de viajes"
+" con enlaces a excelentes herramientas de reserva que comprueban cientos de sitios web con el fin de encontrar usuarios con los mejores precios. SmartlingHotels"
+" sitios constituyen una parte significativa de la comunidad mundial, llegando a cerca de 3,49 millones de visitantes únicos mensuales, y 1,72 millones de"
+" críticas y opiniones que abarcan más de 2,37 millones de alojamientos, restaurantes y atracciones. Los sitios operan en 800 mercados en todo el mundo."
+" SmartlingHotels: obtener los mejores habitaciones para los mejores precios!"
 
 #: ./views/pages/checkout.ejs:24
 msgid "Hello %s %s"
-msgstr ""
+msgstr "Hola %s %s"
 
 #: ./views/pages/checkout.ejs:27
 msgid "You are booking a room at <span class=\"checkout\">%s</span>"
-msgstr ""
+msgstr "Usted está reservando una habitación en <span class=\"checkout\"> %s </span>"
 
 #: ./views/pages/checkout.ejs:31
 msgid "For a total of <span class=\"checkout\">%d<span> night"
 msgid_plural "For a total of <span class=\"checkout\">%d<span> nights"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Para un total de <span class=\"checkout\"> %d<span> noche"
+msgstr[1] "Para un total de <span class=\"checkout\"> %d<span> noches"
 
 #: ./views/pages/checkout.ejs:35
 msgid "At a price of <span class=\"checkout\">$%s per night</span>"
-msgstr ""
+msgstr "A un precio de <span class=\"checkout\"> $%s por noche </span>"
 
 #: ./views/pages/checkout.ejs:38
 msgid "For a total price of <span class=\"checkout\">$%s</span>"
-msgstr ""
+msgstr "Por un precio total de <span class=\"checkout\"> $%s</span>"
 
 #: ./views/pages/checkout.ejs:45
 msgid "Click This Button to Confirm Your Room Reservation"
-msgstr ""
+msgstr "Haga clic en este botón para confirmar la reserva de habitaciones"
 
 #: ./views/pages/checkout404.ejs:13
 msgid ""
 "Sorry, but something appears to have gone wrong. Please try again or "
 "contact our support team for assistance."
-msgstr ""
+msgstr "Lo sentimos, pero algo parece haber salido mal. Inténtelo de nuevo o póngase en contacto con nuestro equipo de soporte para obtener ayuda."
 
 #: ./views/pages/hotel_page.ejs:44
 msgid ""
@@ -64,165 +69,167 @@ msgid ""
 msgid_plural ""
 "%d rooms available with prices starting at <span class=\"roomPrice\">$%d "
 "per night</span>"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d habitacion disponibles con precios que comienzan en <span class=\"roomPrice\"> $%d por noche </span>"
+msgstr[1] "%d habitaciones disponibles con precios que comienzan en <span class=\"roomPrice\"> $%d por noche </span>"
 
 #: ./views/pages/hotel_page.ejs:53
 msgid "Click This Button to Make a Reservation"
-msgstr ""
+msgstr "Clic en este botón para hacer una reserva"
 
 #: ./views/pages/hotel_page.ejs:96
 msgid "Location"
-msgstr ""
+msgstr "Ubicación"
 
 #: ./views/pages/hotel_results.ejs:30
 msgid "Showing hotels located in: \"%s\""
-msgstr ""
+msgstr "Mostrar hoteles ubicados en: \"%s\""
 
 #: ./views/pages/hotel_results.ejs:35
 #: ./views/pages/results404.ejs:33
 msgid "%d of %d result shown."
 msgid_plural "%d of %d results shown."
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%d de %d resultado muestra."
+msgstr[1] "%d de %d resultados muestra."
 
 #: ./views/pages/index.ejs:29
 msgid "Get the best rooms for the best prices! Only at SmartlingHotels®."
-msgstr ""
+msgstr "Recibe las mejores habitaciones para los mejores precios! Sólo en SmartlingHotels®."
 
 #: ./views/pages/index.ejs:32
 msgid ""
 "Here at SmartlingHotels, we provide only the greatest hotels and only the "
 "greatest prices. We guarantee that all customers will be 100% satisfied."
-msgstr ""
+msgstr "Aquí en SmartlingHotels, sólo se ofrecen los más grandes hoteles y sólo los mayores precios. Le garantizamos que todos los clientes el 100% satisfecho."
 
 #: ./views/pages/index.ejs:36
 msgid "Welcome back, %s!"
-msgstr ""
+msgstr "Bienvenido de nuevo,% s!"
 
 #: ./views/pages/index.ejs:39
 msgid "You are booking %d night"
 msgid_plural "You are booking %d nights"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Usted está reservando %d noche"
+msgstr[1] "Usted está reservando %d noches"
 
 #: ./views/pages/page404.ejs:25
 msgid ""
 "Sorry, but the hotel you are looking for is not here. Please try revising "
 "your search."
-msgstr ""
+msgstr "Lo sentimos, el hotel que está buscando no está aquí. Por favor, intente revisar su búsqueda."
 
 #: ./views/pages/results404.ejs:29
 msgid "Showing hotels located in \"%s\""
-msgstr ""
+msgstr "Mostrar hoteles ubicados en: \"%s\""
 
 #: ./views/pages/results404.ejs:42
 msgid ""
 "We are sorry, but we could not find any hotels in the location that you "
 "selected. Please try revising your search."
-msgstr ""
+msgstr "Lo sentimos, pero no hemos podido encontrar hoteles en la ubicación que ha seleccionado. Por favor, intente revisar su búsqueda."
 
 #: ./views/pages/site_map.ejs:14
 #: ./views/partials/pageheader.ejs:14
 msgid "Home"
-msgstr ""
+msgstr "Inicio"
 
 #: ./views/pages/site_map.ejs:15
 #: ./views/partials/pageheader.ejs:15
 msgid "Browse Hotels"
-msgstr ""
+msgstr "Busque hoteles"
 
 #: ./views/pages/site_map.ejs:16
 #: ./views/partials/pageheader.ejs:16
 msgid "About Us"
-msgstr ""
+msgstr "Sobre nosotros"
 
 #: ./views/pages/site_map.ejs:17
 msgid "Costumer Support"
-msgstr ""
+msgstr "Soporte al cliente"
 
 #: ./views/pages/site_map.ejs:18
 #: ./views/partials/pageheader.ejs:18
 msgid "Site Map"
-msgstr ""
+msgstr "Mapa del sitio"
 
 #: ./views/pages/support.ejs:13
 msgid ""
 "We strive to ensure that our customers are 100% satisfied. However, we "
 "understand that some customers may not be satisfied with the services that "
 "we provide."
-msgstr ""
+msgstr "Nos esforzamos para garantizar que nuestros clientes estén 100% satisfechos. Sin embargo, entendemos que algunos clientes pueden no estar satisfecho con"
+" los servicios que proporcionamos."
 
 #: ./views/pages/support.ejs:14
 msgid ""
 "That being said, we welcome unsatisfied customers to voice any issues or "
 "suggestions with us, so we can improve both our company and the "
 "effectiveness of our services. "
-msgstr ""
+msgstr "Dicho esto, damos la bienvenida a los clientes insatisfechos para expresar los problemas o sugerencias con nosotros, para que podamos mejorar nuestra compañía"
+" y la eficacia de nuestros servicios. "
 
 #: ./views/pages/thank_you.ejs:13
 msgid ""
 "Thank you for using SmartlingHotels <br> <small> <em>For all your room "
 "booking needs!</em> </small>"
-msgstr ""
+msgstr "Gracias por usar SmartlingHotels <br>  <small><em>Para todas sus necesidades de reserva de habitación! </em></small>"
 
 #: ./views/pages/thank_you.ejs:18
 msgid "Click Here to Return to the Home Page"
-msgstr ""
+msgstr "Haga clic aquí para volver a la página de inicio"
 
 #: ./views/partials/browse_form.ejs:8
 msgid "Please input your location."
-msgstr ""
+msgstr "Por favor introduzca su ubicación."
 
 #: ./views/partials/browse_form.ejs:16
 msgid "Find Hotels"
-msgstr ""
+msgstr "Busque hoteles"
 
 #: ./views/partials/browse_form.ejs:20
 msgid "Revise Search"
-msgstr ""
+msgstr "Modificar Búsqueda"
 
 #: ./views/partials/browse_form.ejs:23
 msgid "Return to Search"
-msgstr ""
+msgstr "Volver a la búsqueda"
 
 #: ./views/partials/footer.ejs:5
 msgid "Copyright © SmartlingHotels 2016"
-msgstr ""
+msgstr "Copyright © 2016 SmartlingHotels"
 
 #: ./views/partials/pageheader.ejs:4
 #: ./views/partials/pageheader.ejs:26
 msgid "SmartlingHotels"
-msgstr ""
+msgstr "SmartlingHotels"
 
 #: ./views/partials/pageheader.ejs:17
 msgid "Customer Support"
-msgstr ""
+msgstr "Soporte al cliente"
 
 #: ./views/partials/result.ejs:11
 msgid "Location: "
-msgstr ""
+msgstr "Ubicación: "
 
 #: ./views/partials/result.ejs:19
 msgid "Check Room Availability"
-msgstr ""
+msgstr "Ver disponibilidad de habitaciones"
 
 #: ./views/partials/room_modal.ejs:19
 msgid "First Name:"
-msgstr ""
+msgstr "Nombre de pila:"
 
 #: ./views/partials/room_modal.ejs:25
 msgid "Last Name:"
-msgstr ""
+msgstr "Apellido:"
 
 #: ./views/partials/room_modal.ejs:34
 msgid "Email Address:"
-msgstr ""
+msgstr "Dirección de correo electrónico:"
 
 #: ./views/partials/room_modal.ejs:45
 msgid "How many nights will you be staying?"
-msgstr ""
+msgstr "¿Cuántas noches se quedará?"
 
 #: ./views/partials/room_modal.ejs:62
 msgid "Confirm"
-msgstr ""
+msgstr "Confirmar"

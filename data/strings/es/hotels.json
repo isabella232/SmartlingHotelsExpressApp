@@ -1,164 +1,194 @@
-[
+{
+  "smartling" : {
+    "translate_paths" : [
+    {
+      "path" : "hotels/rooms"
+    },
+
+    {
+      "path" : "hotels/price"
+    },
+
+    {
+      "path" : "hotels/description1"
+    },
+
+    {
+      "path" : "hotels/description2"
+    },
+
+    {
+      "path" : "hotels/reviews/*"
+    },
+
+    {
+      "path" : "hotels/address/compiled_ln1"
+    },
+
+    {
+      "path" : "hotels/address/compiled_ln2"
+    }]
+  },
+  "hotels" : [
   {
-    "name": "The Broome",
-    "link":"The_Broome",
-    "prevLink":"New_York",
-    "image": "broome_profile.jpg",
-    "imgCarousel": ["broome1.jpg", "broome2.jpg", "broome3.jpg", "broome4.jpg", "broome5.jpg", "broome6.jpg"],
-    "rooms":"11",
-    "price":"322.15",
-    "description1": "<p>In the heart of New York City’s downtown is a one-of-a-kind hotel. Just turn the corner from SOHO’s celebrated shops and cafes, enter the doors where the staff greets you by name, and find yourself on our peaceful, secluded patio for refreshments and a heavenly view to the sky above. This architectural gem offers guests a rare pause in this exciting city. Welcome to The Broome. </p> <p>We’re proud to be your home away from home. We’ve paid attention to every detail – from the design of the property, the tastefully curated objects and modern amenities, to our personalized service – so that your stay is seamless, comfortable and memorable. </p>",
-    "description2": "<p>In the heart of New York City’s downtown is a one-of-a-kind hotel. Just turn the corner from SOHO’s celebrated shops and cafes, enter the doors where the staff greets you by name, and find yourself on our peaceful, secluded patio for refreshments and a heavenly view to the sky above. This architectural gem offers guests a rare pause in this exciting city. Welcome to The Broome.</p> <p>We’re proud to be your home away from home. We’ve paid attention to every detail – from the design of the property, the tastefully curated objects and modern amenities, to our personalized service – so that your stay is seamless, comfortable and memorable.</p>",
-    "reviews": [
-      {
-        "text": "What a great boutique hotel in the heart of Soho. The staff were welcoming and attentive from the get go and were great throughout our 5 day stay. The hotel is near a few subway stations which makes it easy to get around the city and is near great shopping, eateries and bars. Breakfast is great and sets you up each morning with the NY Times, fresh pastries, fresh juice, fresh coffee and ready made granola and yoghurt. It is a boutique hotel so there only 40 odd rooms but the price we booked at was very competitive. There's great artwork all around and the inner courtyard is beautiful. The rooms are of reasonable size, and the large queen size bed is very comfortable. There are lovely little touches all around from the hand written welcome note to ferrero rocher chocolates at the bedside and a range of high end toiletries. A great stay and would stay again. Top marks.",
-        "rating": "4.9",
-        "user": "Kal El"
-      }
-    ],
-    "address": {
-      "num": "431",
-      "street": "Broome Street",
-      "city": "New York",
-      "state": "NY",
-      "zip": "10013",
-      "compiled_ln1": "431 Broome Street",
-      "compiled_ln2": "New York, NY 10013"
+    "name" : "The Broome",
+    "link" : "The_Broome",
+    "prevLink" : "New_York",
+    "image" : "broome_profile.jpg",
+    "imgCarousel" : ["broome1.jpg", "broome2.jpg", "broome3.jpg", "broome4.jpg", "broome5.jpg", "broome6.jpg"],
+    "rooms" : "11",
+    "price" : "322,15",
+    "description1" : "<p> En el corazón del centro de la ciudad de Nueva York es un hotel único en su tipo. Basta con activar la esquina de las tiendas y cafés que se celebran de SOHO, introduzca las puertas donde el personal te saluda por su nombre, y se encuentra en nuestro patio tranquilo y aislado para tomar un refresco y una vista celestial al cielo arriba. Esta joya arquitectónica ofrece a sus clientes una pausa rara en esta apasionante ciudad. Bienvenido a The Broome.  </p><p> Estamos orgullosos de ser su hogar lejos de casa. Hemos prestado atención a cada detalle - desde el diseño de la propiedad, los objetos curada con buen gusto y todas las comodidades modernas, en nuestro servicio personalizado - para que su estancia es perfecta, cómoda y memorable.  </p>",
+    "description2" : "<p> En el corazón del centro de la ciudad de Nueva York es un hotel único en su tipo. Basta con activar la esquina de las tiendas y cafés que se celebran de SOHO, introduzca las puertas donde el personal te saluda por su nombre, y se encuentra en nuestro patio tranquilo y aislado para tomar un refresco y una vista celestial al cielo arriba. Esta joya arquitectónica ofrece a sus clientes una pausa rara en esta apasionante ciudad. Bienvenido a The Broome. </p><p> Estamos orgullosos de ser su hogar lejos de casa. Hemos prestado atención a cada detalle - desde el diseño de la propiedad, los objetos curada con buen gusto y todas las comodidades modernas, en nuestro servicio personalizado - para que su estancia es perfecta, cómoda y memorable.  </p>",
+    "reviews" : [
+    {
+      "text" : "Qué gran hotel boutique en el corazón del Soho. El personal era acogedor y atento desde el principio y era genial durante toda nuestra estancia de 5 días. El hotel está cerca de un par de estaciones de metro lo que hace que sea fácil moverse por la ciudad y está cerca de tiendas, restaurantes y bares. El desayuno es excelente y te prepara cada mañana con el New York Times, pastas frescas, zumos naturales, café fresco y listo granola hecha y yogur. Es un hotel boutique por lo que hay sólo 40 habitaciones impares, pero el precio que reservamos en era muy competitivo. Hay una gran obra de arte por todas partes y el patio interior es hermoso. Las habitaciones son de un tamaño razonable, y la gran cama de matrimonio es muy cómodo. Hay pequeños detalles encantadores por todas partes, desde la bienvenida nota escrita a mano a los chocolates Ferrero Rocher en la cabecera y una gama de artículos de tocador de gama alta. Una gran estancia y volvería de nuevo. Las mejores notas.",
+      "rating" : "4.9",
+      "user" : "Bruce Wayne"
+    }],
+    "address" : {
+      "num" : "431",
+      "street" : "Broome Street",
+      "city" : "New York",
+      "state" : "NY",
+      "zip" : "10013",
+      "compiled_ln1" : "431 Broome Street",
+      "compiled_ln2" : "Nueva York, NY 10013"
     }
   },
+
   {
-    "name": "Casablanca Hotel - Times Square",
-    "link":"Casablanca_Hotel_Times_Square",
-    "prevLink":"New_York",
-    "image": "casa_profile.jpg",
-    "imgCarousel": ["casa1.jpg", "casa2.jpg", "casa3.jpg", "casa4.jpg", "casa5.jpg", "casa6.jpg"],
-    "rooms":"9",
-    "price":"287.20",
-    "description1": "<p>The Casablanca Hotel Times Square is an intimate European-style family-owned boutique hotel in New York City's most popular location, Midtown Manhattan, where guests can escape from the hustle and bustle of the city and relax in front of a fireplace at Rick's Café, the Casablanca Hotel's warm and welcoming upstairs club room. Rick's Café serves complimentary refreshments 24 hours a day, including deluxe continental breakfast each morning and wine & cheese receptions every evening from 5 p.m. to 8 p.m. </p>",
-    "description2": "<p>The Casablanca Hotel Times Square is an intimate European-style family-owned boutique hotel in New York City's most popular location, Midtown Manhattan, where guests can escape from the hustle and bustle of the city and relax in front of a fireplace at Rick's Café, the Casablanca Hotel's warm and welcoming upstairs club room. Rick's Café serves complimentary refreshments 24 hours a day, including deluxe continental breakfast each morning and wine & cheese receptions every evening from 5 p.m. to 8 p.m.</p>",
-    "reviews": [
-      {
-        "text": "There's nothing to add to the 100% approval from most guests before me - just to say thank you for their wonderful reviews that allowed me to DARE to be so near Times Square as without assurances of attainable quiet & staff consideration I'd not even have tried. I'd looked at everything from high towers to apartments in an attempt to get quiet & dark to allow me to sleep. I was losing heart til I began to speak to a particular member of staff via long distance call and email. Not for one moment did I doubt the kind real listening skills of this person (nor in the event any fellow colleagues). All Casablanca was delightful: the breakfasts were wonderful [who would be able to face cooked food after NYC dinners?], the coffee top notch [try boosting the filter one with a shot of espresso, or like me have a double espresso from the quality machine & top it up]; the 5-8 drinks & food reception - yes it merits this title - became the thing we looked forward to most every day; the staff at both repasts were quite uniquely delightful; back to reception no advice, directions, bookings were too much trouble & saved us time & made us confident in the Big Apple. I'd spent my 21st birthday in NYC before the Twin Towers opened; this was a return as a nod to a big anniversary that fulfilled every expectation - mainly because our hotel became our home, & its staff our mentors.",
-        "rating": "4.9",
-        "user": "Anonymous"
-      }
-    ],
-    "address": {
-      "num": "147",
-      "street": "West 43rd Street",
-      "city": "New York",
-      "state": "NY",
-      "zip": "10036",
-      "compiled_ln1": "147 West 43rd Street",
-      "compiled_ln2": "New York, NY 10036"
+    "name" : "Casablanca Hotel - Times Square",
+    "link" : "Casablanca_Hotel_Times_Square",
+    "prevLink" : "New_York",
+    "image" : "casa_profile.jpg",
+    "imgCarousel" : ["casa1.jpg", "casa2.jpg", "casa3.jpg", "casa4.jpg", "casa5.jpg", "casa6.jpg"],
+    "rooms" : "9",
+    "price" : "287,20",
+    "description1" : "<p> El Library Hotel es un hotel íntimo de estilo europeo de gestión familiar con encanto en la ubicación más popular de la ciudad de Nueva York, Centro de Manhattan, que le permite escapar del ajetreo y el bullicio de la ciudad y relajarse en frente de una chimenea en el Café de Rick, cálido y acogedor salón del club de arriba del hotel Casablanca. Café de Rick sirve refrescos de cortesía las 24 horas del día, incluyendo desayuno continental de lujo cada mañana y recepciones de vino y queso cada noche 17:00-20:00 </p>",
+    "description2" : "<p> El Library Hotel es un hotel íntimo de estilo europeo de gestión familiar con encanto en la ubicación más popular de la ciudad de Nueva York, Centro de Manhattan, que le permite escapar del ajetreo y el bullicio de la ciudad y relajarse en frente de una chimenea en el Café de Rick, cálido y acogedor salón del club de arriba del hotel Casablanca. Café de Rick sirve refrescos de cortesía las 24 horas del día, incluyendo desayuno continental de lujo cada mañana y recepciones de vino y queso cada noche 17:00-20:00 </p>",
+    "reviews" : [
+    {
+      "text" : "No hay nada que añadir a la aprobación del 100% de la mayoría de los huéspedes antes que yo - sólo para decir gracias por sus maravillosos comentarios que me permitieron DARE para ser tan cerca de Times Square como sin garantías de un posible examen tranquilo y el personal me gustaría ni siquiera tengo intentó. Había mirado todo, desde las torres altas de apartamentos en un intento de conseguir tranquilo y oscuro para permitir que duerma. Estaba perdiendo el corazón hasta que empecé a hablar con un miembro en particular de personal a través de llamadas de larga distancia y de correo electrónico. Ni por un momento lo dudo las habilidades de escucha verdadera clase de esta persona (ni en el caso de los colegas). Todo Casablanca era una delicia: los desayunos eran una maravilla, la primera clase de café [intente impulsar el filtro uno con un shot de espresso, o como yo tengo un café doble de la calidad [que sería capaz de hacer frente a los alimentos cocinados después de las cenas NYC?] la máquina y volver a llenar]; el 5-8 bebidas y alimentos de recepción - sí que merece este título - se convirtió en lo que parecía con ganas de más cada día; el personal en ambos ágapes eran bastante la deliciosa; volver a recepción ningún consejo, las direcciones, las reservas eran demasiado problema y nos ahorró tiempo y nos hizo confiar en la gran manzana. Me había pasado mi 21 cumpleaños en Nueva York antes de que las torres gemelas abierto; este fue un retorno como un guiño a un gran aniversario que cumplió con todas las expectativas - sobre todo porque nuestro hotel se convirtió en nuestra casa, y su personal a nuestros mentores.",
+      "rating" : "4.9",
+      "user" : "Anónimo"
+    }],
+    "address" : {
+      "num" : "147",
+      "street" : "West 43rd Street",
+      "city" : "New York",
+      "state" : "NY",
+      "zip" : "10036",
+      "compiled_ln1" : "147 West 43rd Street",
+      "compiled_ln2" : "Nueva York, NY 10036"
     }
   },
+
   {
-    "name": "Crosby Street Hotel",
-    "link":"Crosby_Street_Hotel",
-    "prevLink":"New_York",
-    "image": "crosby_profile.jpg",
-    "imgCarousel": ["crosby1.jpg", "crosby2.jpg", "crosby3.jpg", "crosby4.jpg", "crosby5.jpg", "crosby6.jpg"],
-    "rooms":"7",
-    "price":"1,245",
-    "description1": "<p>Crosby Street Hotel is situated on a quiet cobbled street in the heart of New York's vibrant SoHo neighbourhood. There are 86 bedrooms and suites over 11 floors. </p> <p>Interior design by Kit Kemp reflects a fresh, contemporary style. There is The Crosby Bar, a private leafy garden, guest drawing room, several stylish private event and meeting rooms, a luxurious 99 seat screening room and fully equipped gym.</p>",
-    "description2": "<p>Crosby Street Hotel is situated on a quiet cobbled street in the heart of New York's vibrant SoHo neighbourhood. There are 86 bedrooms and suites over 11 floors.</p> <p>Interior design by Kit Kemp reflects a fresh, contemporary style. There is The Crosby Bar, a private leafy garden, guest drawing room, several stylish private event and meeting rooms, a luxurious 99 seat screening room and fully equipped gym.</p>",
-    "reviews": [
-      {
-        "text": "We stayed at the Crosby Street hotel as we are great fans of Firmdale and often stay at the Haymarket Hotel in London. Stepping through the doors upon our arrival, we felt immediately at home. All the staff in the reception area, including the butler for the sitting room, were introduced to us by name. It was a nice feeling. We ordered room service, which was prompt and delicious, and settled down for a great stay. The concierge were fantastic at recommending museums, quickly ordering cabs, and making sure we were happy when our helicopter tour was rained off. Our experience was great. We would highly recommended.",
-        "rating": "4.9",
-        "user": "Jane Doe"
-      }
-    ],
-    "address": {
-      "num": "79",
-      "street": "Crosby Street",
-      "city": "New York",
-      "state": "NY",
-      "zip": "10012",
-      "compiled_ln1": "79 Crosby Street",
-      "compiled_ln2": "New York, NY 10012"
+    "name" : "Crosby Street Hotel",
+    "link" : "Crosby_Street_Hotel",
+    "prevLink" : "New_York",
+    "image" : "crosby_profile.jpg",
+    "imgCarousel" : ["crosby1.jpg", "crosby2.jpg", "crosby3.jpg", "crosby4.jpg", "crosby5.jpg", "crosby6.jpg"],
+    "rooms" : "7",
+    "price" : "1,245",
+    "description1" : "<p> Crosby Street Hotel está situado en una calle adoquinada tranquila, en el corazón del vibrante barrio del Soho de Nueva York. Hay 86 habitaciones y suites repartidas en 11 plantas.  </p><p> diseño de interiores por Kit Kemp refleja un estilo fresco y contemporáneo. Hay The Crosby Bar, un frondoso jardín privado, Habitación de dibujo, de varias salas de reuniones privadas elegantes, un lujoso asiento 99 sala de proyección y un gimnasio totalmente equipado. </p>",
+    "description2" : "<p> Crosby Street Hotel está situado en una calle adoquinada tranquila, en el corazón del vibrante barrio del Soho de Nueva York. Hay 86 habitaciones y suites repartidas en 11 plantas. </p><p> diseño de interiores por Kit Kemp refleja un estilo fresco y contemporáneo. Hay The Crosby Bar, un frondoso jardín privado, Habitación de dibujo, de varias salas de reuniones privadas elegantes, un lujoso asiento 99 sala de proyección y un gimnasio totalmente equipado. </p>",
+    "reviews" : [
+    {
+      "text" : "Nos alojamos en el hotel Crosby Street como somos grandes fans de Firmdale y, a menudo quedamos en el hotel Haymarket en Londres. Pasando a través de las puertas a nuestra llegada, nos sentimos como en casa. Todo el personal en la zona de recepción, incluyendo el mayordomo de la sala de estar, se presentó a nosotros por su nombre. Era una sensación muy agradable. Pedimos servicio de habitación, que era rápido y delicioso, y se normalizaron para una buena estancia. El conserje era fantástico en museos recomendar, ordenar rápidamente los taxis, y asegurarse de que estábamos felices cuando nuestro viaje en helicóptero fue llovió. Nuestra experiencia fue genial. Nos muy recomendable.",
+      "rating" : "4.9",
+      "user" : "Jane Doe"
+    }],
+    "address" : {
+      "num" : "79",
+      "street" : "Crosby Street",
+      "city" : "New York",
+      "state" : "NY",
+      "zip" : "10012",
+      "compiled_ln1" : "79 Crosby Street",
+      "compiled_ln2" : "Nueva York, NY 10012"
     }
   },
+
   {
-    "name": "Park Hyatt New York",
-    "link":"Park_Hyatt_New_York",
-    "prevLink":"New_York",
-    "image": "hyatt_profile.jpg",
-    "imgCarousel": ["hyatt1.jpg", "hyatt2.jpg", "hyatt3.jpg", "hyatt4.jpg", "hyatt5,jpg", "hyatt6.jpg" ],
-    "rooms":"5",
-    "price":"1,525",
-    "description1": "<p>Located in the heart of Midtown Manhattan, our New York luxury hotel is situated directly across the street from Carnegie Hall and one block from Central Park. Designed by world-renowned, Pritzker Prize-winning architect Christian de Portzamparc, Park Hyatt New York features 210 generously sized guest rooms, including 92 luxury suites, designed by Yabu Pushelberg. Our stunning and state-of-the-art rooms are among the largest in New York City averaging 530 square feet and feature breathtaking views of the New York skyline and partial views of Central Park. </p>",
-    "description2": "<p>Located in the heart of Midtown Manhattan, our New York luxury hotel is situated directly across the street from Carnegie Hall and one block from Central Park. Designed by world-renowned, Pritzker Prize-winning architect Christian de Portzamparc, Park Hyatt New York features 210 generously sized guest rooms, including 92 luxury suites, designed by Yabu Pushelberg. Our stunning and state-of-the-art rooms are among the largest in New York City averaging 530 square feet and feature breathtaking views of the New York skyline and partial views of Central Park. </p> <p>Throughout our hotel, guests experience urbane spaces offering sophistication and elegance. Indulge in our oversized accommodations that combine luxury furnishings with high-tech amenities. Discover intimate experiences tailored to your individual preferences, from delectable cuisine at The Back Room to soothing body treatment at Spa Nalai. We take pleasure and pride in customizing each stay for traveling professionals and vacationing tourists, including being a pet friendly hotel. </p> <p>With its premier address on West 57th Street, Park Hyatt New York is nestled among the city’s top destinations and faces the world-famous Carnegie Hall. Experience the stunning acoustics of this performing arts and music venue across the street, or in our hotel with exclusive Carnegie Hall-related features. Raising the standards for New York luxury hotels, Park Hyatt New York delivers style and sophistication in every detail with beautifully articulated spaces that are functional and fashionable.</p>",
-    "reviews": [
-      {
-        "text": "I had heard and read a lot about this hotel so I had high expectations.  I am happy to say they were more than surpassed.  I have stayed at many hotels and I can honestly say this was the best experience I have ever had from top to bottom.  From the service, to the attention to detail, to the quality of the product as a whole. this was a weekend I will always remember.  I want to give special recognition to Amy who checked us in and remembered specific details about what we were doing during our stay.  It's personalized service like that which makes you feel like more than just another guest.  I will definitely be returning here and recommending it to everyone.",
-        "rating": "4.8",
-        "user": "John Doe"
-      }
-    ],
-    "address": {
-      "num": "153",
-      "street": "West 57th Street",
-      "city": "New York",
-      "state": "NY",
-      "zip": "10019",
-      "compiled_ln1": "153 West 57th Street",
-      "compiled_ln2": "New York, NY 10019"
+    "name" : "Park Hyatt New York",
+    "link" : "Park_Hyatt_New_York",
+    "prevLink" : "New_York",
+    "image" : "hyatt_profile.jpg",
+    "imgCarousel" : ["hyatt1.jpg", "hyatt2.jpg", "hyatt3.jpg", "hyatt4.jpg", "hyatt5,jpg", "hyatt6.jpg"],
+    "rooms" : "5",
+    "price" : "1.525",
+    "description1" : "<p> Situado en el corazón del centro de Manhattan, este hotel de lujo de Nueva York está situado justo enfrente del Carnegie Hall ya una manzana de Central Park. Diseñado por el mundialmente famoso, arquitecto ganador del Premio Pritzker Christian de Portzamparc, Park Hyatt New York dispone de 210 habitaciones de grandes dimensiones, incluyendo 92 suites de lujo, diseñados por Yabu Pushelberg. Nuestras habitaciones impresionantes y el estado de la técnica se encuentran entre los más grandes de la ciudad de Nueva York con un promedio de 530 pies cuadrados y cuentan con impresionantes vistas del horizonte de Nueva York y vistas parciales de Central Park. </p>",
+    "description2" : "<p> Situado en el corazón del centro de Manhattan, este hotel de lujo de Nueva York está situado justo enfrente del Carnegie Hall ya una manzana de Central Park. Diseñado por el mundialmente famoso, arquitecto ganador del Premio Pritzker Christian de Portzamparc, Park Hyatt New York dispone de 210 habitaciones de grandes dimensiones, incluyendo 92 suites de lujo, diseñados por Yabu Pushelberg. Nuestras habitaciones impresionantes y el estado de la técnica se encuentran entre los más grandes de la ciudad de Nueva York con un promedio de 530 pies cuadrados y cuentan con impresionantes vistas del horizonte de Nueva York y vistas parciales de Central Park.  </p><p> A lo largo de nuestro hotel, los huéspedes disfrutan de espacios urbane que ofrecen sofisticación y elegancia. Disfrutar de nuestras opciones de alojamiento de gran tamaño que combinan muebles de lujo con instalaciones de alta tecnología. Descubre experiencias íntimas adaptados a sus preferencias individuales, a partir de una deliciosa cocina en el cuarto de atrás para tratamiento corporal relajante en el Spa Nalai. Tenemos el placer y el orgullo en la personalización de cada estancia para los profesionales que viajan y de vacaciones los turistas, además de ser un hotel de mascotas.  </p><p> Con su dirección principal en West 57th Street, Nueva York Park Hyatt se encuentra entre los principales destinos de la ciudad y se enfrenta a la famosa Carnegie Hall. Experimentar las impresionantes acústica de este lugar artes escénicas y la música a través de la calle, o en nuestro hotel con exclusivas características relacionadas con el Carnegie Hall. El aumento de los estándares para los hoteles de lujo de Nueva York, Park Hyatt New York ofrece estilo y sofisticación en cada detalle con espacios muy bien articulados que son funcionales y de moda. </p>",
+    "reviews" : [
+    {
+      "text" : "Había oído y leído mucho sobre este hotel, así que tenía expectativas altas. Estoy feliz de decir que eran más que superada. Me he alojado en muchos hoteles y honestamente puedo decir que fue la mejor experiencia que he tenido de arriba a abajo. Desde el servicio, a la atención al detalle, a la calidad del producto como un todo. este fue un fin de semana que siempre recordaré. Quiero hacer un reconocimiento especial a Amy que nos atendió y se acordó de detalles específicos acerca de lo que estábamos haciendo durante nuestra estancia. Es un servicio personalizado como el que te hace sentir como algo más que otro huésped. Sin duda volveremos aquí y recomendar a todo el mundo.",
+      "rating" : "4.8",
+      "user" : "John Doe"
+    }],
+    "address" : {
+      "num" : "153",
+      "street" : "West 57th Street",
+      "city" : "New York",
+      "state" : "NY",
+      "zip" : "10019",
+      "compiled_ln1" : "153 West 57th Street",
+      "compiled_ln2" : "Nueva York, NY 10019"
     }
   },
+
   {
-    "name": "The Sherry-Netherland",
-    "link":"Sherry_Netherland",
-    "prevLink":"New_York",
-    "image": "sherry_profile.jpg",
-    "imgCarousel": ["sherry1.jpg", "sherry2.jpg", "sherry3.jpg", "sherry4.jpg", "sherry5.jpg", "sherry6.jpg"],
-    "rooms":"12",
-    "price":"679",
-    "description1": "<p>Experience world-class accommodations and European-style service in an iconic Central Park hotel. Topped by an elaborate Gothic minaret, The Sherry-Netherland adds a note of drama and history to the Midtown Manhattan skyline. Just look for the signature sidewalk clock on Fifth Avenue that marks this Central Park hotel’s entrance. From exemplary service – including concierge assistance, elevator attendants and valet parking – to spacious, individually decorated rooms and suites, a stay at The Sherry has been an expression of privilege since 1927. Rely on this New York City luxury hotel to provide five-star service in a classic setting.</p>",
-    "description2": "<p>Experience world-class accommodations and European-style service in an iconic Central Park hotel. Topped by an elaborate Gothic minaret, The Sherry-Netherland adds a note of drama and history to the Midtown Manhattan skyline. Just look for the signature sidewalk clock on Fifth Avenue that marks this Central Park hotel’s entrance. From exemplary service – including concierge assistance, elevator attendants and valet parking – to spacious, individually decorated rooms and suites, a stay at The Sherry has been an expression of privilege since 1927. Rely on this New York City luxury hotel to provide five-star service in a classic setting.</p> <p>Restored in 2014, the mural on the lobby ceiling has been returned to its original splendor as seen in the 1920s. Inspired by Raphael's frescoes in Cardinal Bibbiena's Loggetta in the Vatican Palace, artist Joseph Aruta designed the beautiful and intricate details. View images of the restored mural in this photo gallery.</p> <p>“We're at The Sherry” has been an expression of privilege since the hotel opened in 1927. Experience The Sherry's unsurpassed lifestyle in one of 50 spacious and individually decorated guest rooms and suites, some with Central Park views. Book your reservations online today for exclusive rates.</p> <p>Sherry-Netherland is a smoke-free hotel.</p>",
-    "reviews": [
-      {
-        "text": "I loved my stay at the Sherry Netherland! I can see first hand why it receives such amazing reviews on Trip Advisor. The place really is so charming, from the decor in the lobby, to the elevator attendants, to the beautiful rooms and lovely welcome chocolates. The staff at the concierge were lovely and very accommodating. I loved the location being so close to Central Park which is one of my favourite parts of NYC. The free wifi and complimentary sodas and waters were a lovely touch! Next time I am in New York this will be the place I stay!",
-        "rating": "5.0",
-        "user": "U. N. Owen"
-      }
-    ],
-    "address": {
-      "num": "781",
-      "street": "5th Ave",
-      "city": "New York",
-      "state": "NY",
-      "zip": "10022",
-      "compiled_ln1": "781 5th Ave",
-      "compiled_ln2": "New York, NY 10022"
+    "name" : "The Sherry-Netherland",
+    "link" : "Sherry_Netherland",
+    "prevLink" : "New_York",
+    "image" : "sherry_profile.jpg",
+    "imgCarousel" : ["sherry1.jpg", "sherry2.jpg", "sherry3.jpg", "sherry4.jpg", "sherry5.jpg", "sherry6.jpg"],
+    "rooms" : "12",
+    "price" : "679",
+    "description1" : "<p> alojamiento de clase mundial experiencia y servicio de estilo europeo en un emblemático hotel Central Park. Coronado por un minarete gótico elaborado, The Sherry-Netherland añade una nota de drama y la historia de la línea del horizonte el centro de Manhattan. Sólo tiene que buscar el reloj de la firma de la acera en la Quinta Avenida, que marca la entrada de este hotel Central Park. Desde un servicio ejemplar - incluyendo servicio de conserjería, auxiliares de ascensor y parking con asistencia - a las amplias habitaciones y suites, decoradas de forma individual, una estancia en el Sherry ha sido una expresión de privilegio desde 1927. confiar en este hotel de lujo de la ciudad de Nueva York para proporcionar cinco estrellas servicio en un entorno clásico. </p>",
+    "description2" : "<p> alojamiento de clase mundial experiencia y servicio de estilo europeo en un emblemático hotel Central Park. Coronado por un minarete gótico elaborado, The Sherry-Netherland añade una nota de drama y la historia de la línea del horizonte el centro de Manhattan. Sólo tiene que buscar el reloj de la firma de la acera en la Quinta Avenida, que marca la entrada de este hotel Central Park. Desde un servicio ejemplar - incluyendo servicio de conserjería, auxiliares de ascensor y parking con asistencia - a las amplias habitaciones y suites, decoradas de forma individual, una estancia en el Sherry ha sido una expresión de privilegio desde 1927. confiar en este hotel de lujo de la ciudad de Nueva York para proporcionar cinco estrellas servicio en un entorno clásico. </p><p> Restaurado en el año 2014, el mural en el techo del vestíbulo ha sido devuelto a su esplendor original como se ve en la década de 1920. Inspirado por los frescos de Rafael en Loggetta del cardenal Bibbiena en el Palacio Vaticano, artista Joseph Aruta diseñado las bellas y detalles intrincados. Ver imágenes del mural restaurado en esta galería de fotos. </p><p> &quot;Estamos en el Sherry&quot; ha sido una expresión de privilegio ya que el hotel abrió sus puertas en el estilo de vida insuperable 1927. La experiencia de Sherry en una de las 50 habitaciones y suites amplias y decoradas de forma individual, algunas con vistas a Central Park. Haga su reserva en línea hoy para tarifas exclusivas. </p><p> Sherry-Netherland es un hotel libre de humo. </p>",
+    "reviews" : [
+    {
+      "text" : "Me encantó mi estancia en el Sherry Netherland! Puedo ver de primera mano por lo que recibe tales sorprendentes comentarios en Tripadvisor. El lugar es realmente tan encantador, desde la decoración en el vestíbulo del ascensor a los asistentes, a las hermosas habitaciones y bombones de bienvenida preciosas. El personal en el conserje era encantador y muy servicial. Me encantó la ubicación al estar tan cerca de Central Park, que es una de mis partes favoritas de Nueva York. El wifi gratuita y refrescos gratuitos y aguas eran un toque encantador! La próxima vez que estoy en Nueva York este será el lugar donde quedarse!",
+      "rating" : "5.0",
+      "user" : "U. N. Owen"
+    }],
+    "address" : {
+      "num" : "781",
+      "street" : "5th Ave",
+      "city" : "New York",
+      "state" : "NY",
+      "zip" : "10022",
+      "compiled_ln1" : "781 5th Ave",
+      "compiled_ln2" : "Nueva York, NY 10022"
     }
   },
+
   {
-    "name": "Seaport Boston Hotel",
-    "link":"Seaport_Boston_Hotel",
-    "prevLink":"Boston",
-    "image": "seaport_profile.jpg",
-    "imgCarousel": ["seaport1.jpg","seaport2.jpg","seaport3.jpg","seaport4.jpg","seaport5.jpg"  ],
-    "rooms":"8",
-    "price":"260",
-    "description1": "<p> Located on Boston Harbor in the bustling Seaport District, the Seaport Boston Hotel & World Trade Center is one of Boston's most popular hotels for business and leisure travelers for a variety of reasons. Adjacent to Boston's financial district and the North End, the Seaport District is home to dozens of Boston's most popular restaurants, bars, museums and entertainment venues. In the heart of it lies the Seaport Boston, offering guests the feel of a residentially-scale boutique hotel with guest rooms featuring harbor and city views, one of the city's best health clubs, complimentary WiFi and more. </p>",
-    "description2": "<p> Located on Boston Harbor in the bustling Seaport District, the Seaport Boston Hotel & World Trade Center is one of Boston's most popular hotels for business and leisure travelers for a variety of reasons. Adjacent to Boston's financial district and the North End, the Seaport District is home to dozens of Boston's most popular restaurants, bars, museums and entertainment venues. In the heart of it lies the Seaport Boston, offering guests the feel of a residentially-scale boutique hotel with guest rooms featuring harbor and city views, one of the city's best health clubs, complimentary WiFi and more. </p>",
-    "reviews": [
-      {
-        "text": "<p> I have stayed at the Seaport in the past, but just recently stayed on a one night business trip. I lucked out and got a corner room on the 17th floor over looking the harbor. You just can't beat that view anywhere in Boston. </p> <p>As for location, the Seaport is connected to the World Trade Center Boston and is about a 25 minute walk to Fanueil Hall. This is a very active part of town as there are at least 6 or 7 buildings under construction as of August 4th. </p> <p> Accommodations are fantastic and the hotel offers two very good restaurants. Wifi is free and the whole property doesn't accept tips, but restaurants will add 18% to every bill. I would say that you cannot go wrong with this property. </p> <p> Suggestion: Ask for a harbor view room and a high floor! </p>",
-        "rating": "5.0",
-        "user": "Poor Richard"
-      }
-    ],
-    "address": {
-      "num": "1",
-      "street": "Seaport Lane",
-      "city": "Boston",
-      "state": "MA",
-      "zip": "02210",
-      "compiled_ln1": "1 Seaport Lane",
-      "compiled_ln2": "Boston, MA 02210"
+    "name" : "Seaport Boston Hotel",
+    "link" : "Seaport_Boston_Hotel",
+    "prevLink" : "Boston",
+    "image" : "seaport_profile.jpg",
+    "imgCarousel" : ["seaport1.jpg", "seaport2.jpg", "seaport3.jpg", "seaport4.jpg", "seaport5.jpg"],
+    "rooms" : "8",
+    "price" : "260",
+    "description1" : "<p> Situado en el puerto de Boston en el Distrito bullicioso puerto, el Puerto de Boston Hotel &amp; World Trade Center es uno de los hoteles más populares de Boston para los viajeros de negocios y de ocio para una variedad de razones. Adyacente al distrito financiero de Boston y el extremo norte, el Distrito puerto es el hogar de los más populares restaurantes, bares, museos y lugares de ocio de Boston docenas. En el corazón de ella se encuentra el puerto de Boston, que ofrece a los huéspedes la sensación de un hotel boutique de residencialmente escala con habitaciones con vistas al puerto y de la ciudad, uno de los mejores clubes de salud de la ciudad, Wi-Fi gratuito y más. </p>",
+    "description2" : "<p> Situado en el puerto de Boston en el Distrito bullicioso puerto, el Puerto de Boston Hotel &amp; World Trade Center es uno de los hoteles más populares de Boston para los viajeros de negocios y de ocio para una variedad de razones. Adyacente al distrito financiero de Boston y el extremo norte, el Distrito puerto es el hogar de los más populares restaurantes, bares, museos y lugares de ocio de Boston docenas. En el corazón de ella se encuentra el puerto de Boston, que ofrece a los huéspedes la sensación de un hotel boutique de residencialmente escala con habitaciones con vistas al puerto y de la ciudad, uno de los mejores clubes de salud de la ciudad, Wi-Fi gratuito y más. </p>",
+    "reviews" : [
+    {
+      "text" : "<p>  Me he alojado en el puerto en el pasado, pero sólo hemos estado recientemente en un viaje de negocios de una noche. Yo la suerte de conseguir una habitación de esquina en el piso 17 con vistas al puerto. Simplemente no se puede superar esa vista en cualquier lugar en Boston.  </p><p> En cuanto a la ubicación, el puerto está conectado con el World Trade Center de Boston y está a unos 25 minutos a pie Fanueil Hall. Esta es una parte muy activa de la ciudad, ya que hay al menos 6 o 7 edificios en construcción como de 4 de agosto.  El alojamiento es fantástica y el hotel ofrece dos restaurantes muy buenos. Wifi es gratuito y todo el establecimiento no acepta consejos, pero los restaurantes se sumará el 18% de cada factura. Yo diría que no se puede ir mal con esta propiedad.  Sugerencia: Pide una habitación con vistas al puerto y una planta alta!  </p><p></p><p></p>",
+      "rating" : "5.0",
+      "user" : "Poor Richard"
+    }],
+    "address" : {
+      "num" : "1",
+      "street" : "Seaport Lane",
+      "city" : "Boston",
+      "state" : "MA",
+      "zip" : "02210",
+      "compiled_ln1" : "1 Seaport Lane",
+      "compiled_ln2" : "Boston, MA 02210"
     }
-  }
-]
+  }]
+}

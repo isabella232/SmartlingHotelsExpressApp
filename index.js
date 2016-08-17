@@ -25,14 +25,14 @@ app.use(locale(supportedLocales));
 
 
 /*
-var fileContentsEnglish = fs.readFileSync("./translations/en.po");
-gt.addTextdomain("en", fileContentsEnglish);
-var fileContentsSpanish = fs.readFileSync("./translations/es.po");
-gt.addTextdomain("es", fileContentsSpanish);
-*/
+ var fileContentsEnglish = fs.readFileSync("./translations/en.po");
+ gt.addTextdomain("en", fileContentsEnglish);
+ var fileContentsSpanish = fs.readFileSync("./translations/es.po");
+ gt.addTextdomain("es", fileContentsSpanish);
+ */
 
 // Let EJS templates use Gettext and sprintf
-app.use(function(req, res, next) {
+app.use(function (req, res, next) {
     gt.textdomain(req.locale);
     res.locals.gt = gt;
     res.locals.sprintf = sprintf;
@@ -44,7 +44,10 @@ app.use(function(req, res, next) {
 var nav = JSON.parse(fs.readFileSync('./data/strings/en/nav.json', 'utf8'));
 var meta = JSON.parse(fs.readFileSync('./data/strings/en/meta.json', 'utf8'));
 var data = JSON.parse(fs.readFileSync('./data/strings/en/data.json', 'utf8'));
-var hotels = JSON.parse(fs.readFileSync('./data/strings/en/hotels.json', 'utf8'));
+function getHotels(request) {
+    var path = './data/strings/' + request.locale + '/hotels.json';
+    return JSON.parse(fs.readFileSync(path, 'utf8'))
+};
 var checkout = JSON.parse(fs.readFileSync('./data/strings/en/checkout.json', 'utf8'));
 var locations = JSON.parse(fs.readFileSync('./data/strings/en/locations.json', 'utf8'));
 /* Fields */
@@ -52,6 +55,8 @@ var locations = JSON.parse(fs.readFileSync('./data/strings/en/locations.json', '
 /* Hotel Results */
 app.get('/browse/:city', function (request, response) {
     var city = request.params.city;
+    var hotels = getHotels(request);
+
     var results = [];
     var titleText = "";
     var description = "";
@@ -100,7 +105,7 @@ app.get('/about_us', function (request, response) {
 });
 
 /* Browse */
-app.get('/browse',function (request, response) {
+app.get('/browse', function (request, response) {
     var titleText = meta.browse.titleText;
     var description = meta.browse.description;
     response.render('pages/browse', {nav: nav, locations: locations, titleText: titleText, description: description});
@@ -125,6 +130,8 @@ app.get('/support', function (request, response) {
 /* Reservation Confirmed*/
 app.get('/:hotelPath/checkout/reservation_confirmed', function (request, response) {
     var hotelPath = request.params.hotelPath;
+    var hotels = getHotels(request);
+
     var currentHotel = {};
     var titleText = "";
     var description = "";
@@ -160,6 +167,8 @@ app.get('/:hotelPath/checkout/reservation_confirmed', function (request, respons
 /* Checkout */
 app.get('/:hotelPath/book?', function (request, response) {
     var hotelPath = request.params.hotelPath;
+    var hotels = getHotels(request);
+
     var currentHotel = {};
     var titleText = "";
     var description = "";
@@ -200,10 +209,11 @@ app.get('/:hotelPath/book?', function (request, response) {
 });
 
 
-
 /* Hotel Page */
 app.get('/:hotelPath', function (request, response) {
     var hotelPath = request.params.hotelPath;
+    var hotels = getHotels(request);
+
     var currentHotel = {};
     var titleText = "";
     var description = "";

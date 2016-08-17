@@ -1,0 +1,24 @@
+<!DOCTYPE>
+<html>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+    <% include ../partials/head.ejs %>
+    <% include ../partials/opengraph.ejs %>
+</head>
+
+<body>
+<% include ../partials/pageheader.ejs %>
+
+<div class="container-fluid">
+    <div class="row h1 text-center" style="font-size: 300%;line-height: 200%;">
+        <p> <%- gt.gettext('Thank you for using SmartlingHotels <br> <small> <em>For all your room booking needs!</em> </small>') %></p>
+
+    </div>
+    <div class="row text-center">
+        <a class="btn btn-primary btn-lg" href="/"
+           style="font-size: 200%; width: 50%; white-space: normal;"><%= gt.gettext('Click Here to Return to the Home Page') %></a>
+    </div>
+</div>
+<% include ../partials/footer.ejs %>
+</body>
+</html>
+

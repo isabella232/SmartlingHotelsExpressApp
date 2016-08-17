@@ -122,6 +122,41 @@ app.get('/support', function (request, response) {
     response.render('pages/support', {nav: nav, titleText: titleText, description: description, data: data2});
 });
 
+/* Reservation Confirmed*/
+app.get('/:hotelPath/checkout/reservation_confirmed', function (request, response) {
+    var hotelPath = request.params.hotelPath;
+    var currentHotel = {};
+    var titleText = "";
+    var description = "";
+    for (var i = 0; i < hotels.length; i++) {
+        var hotel = hotels[i];
+        if (hotel.link.toLowerCase() === hotelPath.toLowerCase()) {
+            currentHotel = hotel;
+        }
+    }
+    if (Object.keys(currentHotel).length > 0) {
+        titleText = meta.thank_you.titleText;
+        description = meta.thank_you.description;
+
+        response.render('pages/thank_you', {
+            nav: nav,
+            hotel: currentHotel,
+            checkout: checkout,
+            titleText: titleText,
+            description: description
+        });
+    } else {
+        titleText = meta.checkout404.titleText;
+        description = meta.checkout404.description;
+        response.render('pages/checkout404', {
+            nav: nav,
+            locations: locations,
+            titleText: titleText,
+            description: description
+        });
+    }
+});
+
 /* Checkout */
 app.get('/:hotelPath/book?', function (request, response) {
     var hotelPath = request.params.hotelPath;
@@ -139,7 +174,7 @@ app.get('/:hotelPath/book?', function (request, response) {
             "firstName": request.query.firstName,
             "lastName": request.query.lastName,
             "email": request.query.email,
-            "nights": request.query.nights
+            "nights": parseInt(request.query.nights)
         };
         titleText = meta.checkout.titleText;
         description = meta.checkout.description;
@@ -155,7 +190,7 @@ app.get('/:hotelPath/book?', function (request, response) {
     } else {
         titleText = meta.checkout404.titleText;
         description = meta.checkout404.description;
-        response.render('pages/page404', {
+        response.render('pages/checkout404', {
             nav: nav,
             locations: locations,
             titleText: titleText,
@@ -163,6 +198,8 @@ app.get('/:hotelPath/book?', function (request, response) {
         });
     }
 });
+
+
 
 /* Hotel Page */
 app.get('/:hotelPath', function (request, response) {

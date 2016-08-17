@@ -1,17 +1,19 @@
 <meta charset="UTF-8">
 
-<meta name="description" content="<%= description%>">
+<meta name="description" content="<%= description %>">
 <meta name="author" content="Smartling">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
-<title><%= titleText %></title>
+<title><%= gt.gettext(titleText + " | SmartlingHotels") %> </title>
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
 <script src="/js/bootstrap.min.js"></script>
 
 <style>
-    .bg{
+    .bg {
         background: url(/img/bg.jpg);
         background-repeat: no-repeat;
         background-position: center;
@@ -20,12 +22,8 @@
         z-index: -1;
     }
 
-    .center {
-        text-align:center;
-    }
-
     .center form {
-        display:inline-block;
+        display: inline-block;
     }
 
     .center-block {
@@ -34,26 +32,26 @@
         margin-right: auto;
     }
 
-    #heading{
+    #heading {
         text-align: center;
         color: white;
-        text-shadow:
-                -1px 0 #000,
-                0 1px #000,
-                1px 0 #000,
-                0 -1px #000;
-
+        text-shadow: -1px 0 #000,
+        0 1px #000,
+        1px 0 #000,
+        0 -1px #000;
     }
 
     html {
         position: relative;
         min-height: 100%;
     }
+
     body {
         /* Margin bottom by footer height */
         margin-bottom: 60px;
 
     }
+
     .footer {
         position: absolute;
         margin: auto 0px auto;
@@ -63,5 +61,4 @@
         height: 60px;
         background-color: #f5f5f5;
     }
-
 </style>

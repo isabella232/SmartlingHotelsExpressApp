@@ -1,39 +1,43 @@
 {
+  "about_us": {
+    "titleText": "About Us",
+    "description": "SmartlingHotels® is the world's best travel site, enabling travelers to utilize the full potential of every trip."
+  },
   "index": {
-    "titleText": "Home | SmartlingHotels",
+    "titleText": "Home",
     "description": "Get the best rooms for the best prices! Only at SmartlingHotels®."
   },
   "browse": {
-    "titleText": "Browse Hotels | SmartlingHotels",
+    "titleText": "Browse Hotels",
     "default": "SmartlingHotels® can help you save time, money, and energy by comparing millions of hotel listings and finding the best rooms for the best prices, all at the click of a button. Simply input your desired location and watch as SmartlingHotels eliminates all the hassle that comes with searching for the perfect hotel for your travel.",
     "results": "SmartlingHotels is currently displaying all hotels present in the SmartlingHotels Database that are located in the area of: "
   },
   "checkout": {
-    "titleText": "Checkout | SmartlingHotels",
+    "titleText": "Checkout",
     "description": "Book your hotel rooms with SmartlingHotels!"
   },
-  "about_us": {
-    "titleText": "About Us | SmartlingHotels",
-    "description": "SmartlingHotels® is the world's best travel site, enabling travelers to utilize the full potential of every trip."
-  },
   "support": {
-    "titleText": "Support | SmartlingHotels",
+    "titleText": "Support",
     "description": "We at SmartlingHotels® strive to ensure that our customers are 100% satisfied. That being said, we understand that some customers may not be satisfied with the services that we provide. We welcome unsatisfied customers to voice their concerns so that we may improve our our company and rectify any unsatisfactory experiences."
   },
   "site_map": {
-    "titleText": "Site Map | SmartlingHotels",
+    "titleText": "Site Map",
     "description": "Can't find what you're looking for? Review the Site Map for SmartlingHotels and see a list of all our pages."
   },
+  "thank_you": {
+    "titleText": "Reservation Confirmed",
+    "description": "Thank you for using SmartlingHotels - For all your room booking needs!"
+  },
   "checkout404": {
-    "titleText": "Error | SmartlingHotels",
+    "titleText": "Error",
     "description": "Sorry. Your request could not be processed. Try again later."
   },
   "results404": {
-    "titleText": "Error | SmartlingHotels",
+    "titleText": "Error",
     "description": "Sorry, we couldn't find any hotels in the area you described. Try revising your search."
   },
   "page404": {
-    "titleText": "Error | SmartlingHotels",
+    "titleText": "Error",
     "description": "Sorry, we couldn't find the hotel you were looking for. Try revising your search."
   }
 }

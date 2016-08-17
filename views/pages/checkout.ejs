@@ -3,6 +3,11 @@
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
     <% include ../partials/head.ejs %>
     <% include ../partials/opengraph.ejs %>
+    <style>
+        .checkout {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
 <body>
@@ -14,37 +19,36 @@
             <img class="img-responsive" src="/img/<%= hotel.image %>" alt="">
         </div>
         <div class="col-md-5">
-            <div class="panel panel-primary" style="background: #337ab7">
-                <div class="panel-heading" style="">
-                    <div class="h3"><%= gt.gettext('Hello %s %d', formData.firstName, formData.lastName) %>
-                        <%= checkout[0] + formData.firstName + " " + formData.lastName + checkout[1] %></div>
+            <div class="panel panel-primary" style="background: #337ab7; color: #ffffff;">
+                <div class="container-fluid">
+                    <div class="h3"><%= sprintf(gt.gettext('Hello %s %s'), formData.firstName, formData.lastName) %></div>
                     <div class="h4" style="line-height: 150%;">
-                        <div><%= checkout[2] %> <span style="text-decoration: underline;"><%= hotel.name %></span></div>
-                        <div><%= checkout[3] %>
-                            <span style="text-decoration: underline;"><%= formData.nights + checkout[4] %></span>
+                        <div>
+                            <%- sprintf(gt.gettext('You are booking a room at <span class="checkout">%s</span>'), hotel.name) %>
                         </div>
-                        <div><%= checkout[5] %>
-                            <span style="text-decoration: underline;"><%= checkout[5] + hotel.price + checkout[6] %></span>
+                        <div>
+                            <%- sprintf(gt.ngettext('For a total of <span class="checkout">%d<span> night',
+                                    'For a total of <span class="checkout">%d<span> nights', formData.nights), formData.nights) %>
                         </div>
-                        <div><%= checkout[8] %>
-                            <span style="text-decoration: underline;"><%= checkout[9] + formData.nights * hotel.price %></span>
+                        <div>
+                            <%- sprintf(gt.gettext('At a price of <span class="checkout">$%s per night</span>'), hotel.price) %>
+                        </div>
+                        <div>
+                            <%- sprintf(gt.gettext('For a total price of <span class="checkout">$%s</span>'), formData.nights * hotel.price) %>
                         </div>
                     </div>
                 </div>
             </div>
             <div>
-                <button class="btn btn-primary btn-lg" style="width: 100%"><%= checkout[10] %></button>
+                <a class="btn btn-primary btn-lg" href="/<%= hotel.link %>/checkout/reservation_confirmed" style="width: 100%; white-space: normal;">
+                    <%= gt.gettext('Click This Button to Confirm Your Room Reservation') %>
+                </a>
             </div>
         </div>
     </div>
 </div>
 <hr>
-<!-- Information Confirmation -->
-<div class="col-md-4">
-    <div class="panel panel-info text-center">
-        SSSSSSSSSS
-    </div>
-</div>
+
 <% include ../partials/footer.ejs %>
 </body>
 </html>

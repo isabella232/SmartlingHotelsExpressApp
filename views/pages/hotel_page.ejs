@@ -9,13 +9,19 @@
             margin: 0 auto;
         }
 
-        .modal-dialog{
+        .modal-dialog {
             position: relative;
             overflow-y: auto;
             overflow-x: auto;
             max-width: fit-content;
             min-width: 300px;
         }
+
+        .roomPrice {
+            color: red;
+            text-decoration: underline;
+        }
+
     </style>
 
 </head>
@@ -28,24 +34,25 @@
         <div class="col-md-8" style="margin-bottom: 2%;">
             <!-- carousel-->
             <% include ../partials/carousel_template.ejs %>
+            <% var rooms = parseInt(hotel.rooms) %>
+            <% var price = parseInt(hotel.price) %>
             <br>
             <div class="row">
                 <div style="text-align: center; font-weight: 700; font-size: 185%;">
-                    <%= hotel.rooms %> rooms available with prices starting at:
-                    <span style="color: red; text-decoration: underline;">
-                        $<%= hotel.price %> per night
-                    </span>
+                    <%- sprintf(gt.ngettext('%d room available with prices starting at <span class="roomPrice">$%d per night</span>',
+                            '%d rooms available with prices starting at <span class="roomPrice">$%d per night</span>', rooms, price),
+                            rooms, price) %>
                 </div>
             </div>
             <br>
             <div>
                 <button class="btn btn-primary btn-block btn-lg" role="button"
                         data-toggle="modal" data-target="#modal">
-                    <span>Click this Button to Make a Reservation</span>
+                    <span><%= gt.gettext('Click This Button to Make a Reservation') %></span>
                 </button>
             </div>
 
-            <% include ../partials/room_modal.ejs%>
+            <% include ../partials/room_modal.ejs %>
 
             <hr>
             <!-- Customer Reviews-->
@@ -84,8 +91,8 @@
         <div class="col-md-4">
             <div class="h1"><%= hotel.name %></div>
             <hr>
-            <div class="h4">Location: <br>
-                <span class="notranslate">
+            <div class="h4"><%= gt.gettext('Location') %><br>
+                <span>
                     <small>
                         <%= hotel.address.compiled_ln1 %>
                         <br>

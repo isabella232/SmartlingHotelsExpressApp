@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
     <% include ../partials/head.ejs %>
-    <% include ../partials/opengraph.ejs%>
+    <% include ../partials/opengraph.ejs %>
 
     <script src="/js/timeScript.js"></script>
 
@@ -26,7 +26,7 @@
 <div class="container-fluid">
     <div style="font-size: 200%">
         <p>
-            <strong><%=gt.gettext('Get the best rooms for the best prices! Only at SmartlingHotels®.') %></strong>
+            <strong><%= gt.gettext('Get the best rooms for the best prices! Only at SmartlingHotels®.') %></strong>
         </p>
         <p style="font-size: 75%">
             <%= gt.gettext('Here at SmartlingHotels, we provide only the greatest hotels and only the greatest prices. We guarantee that all customers will be 100% satisfied.') %>
@@ -36,7 +36,7 @@
             <%= sprintf(gt.gettext('Welcome back, %s!'), 'Mitchell') %>
         </p>
         <p>
-            <%= sprintf(gt.ngettext('You are booking %d night', 'You are booking %d nights', 5), 5)%>
+            <%= sprintf(gt.ngettext('You are booking %d night', 'You are booking %d nights', 5), 5) %>
         </p>
     </div>
 </div>

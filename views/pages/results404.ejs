@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <%include ../partials/head.ejs%>
+    <% include ../partials/head.ejs %>
 
     <script>
-        $(document).ready(function(){
+        $(document).ready(function () {
             $('#returnToSearch').remove();
-            $('#selector').on("change", function(){
+            $('#selector').on("change", function () {
                 var str = $('#selector').val();
                 $('#findHotels').prop("href", "/browse/" + str);
             });
@@ -16,9 +16,9 @@
 </head>
 <body>
 
-<%include ../partials/pageheader.ejs%>
-<%var hotel = {"prevLink":""}%>
-<%include ../partials/browse_form.ejs%>
+<% include ../partials/pageheader.ejs %>
+<% var hotel = {"prevLink": ""} %>
+<% include ../partials/browse_form.ejs %>
 
 <div class="container">
 
@@ -26,14 +26,21 @@
     <div class="row">
         <div class="col-lg-12">
             <div class="h1 col-md-8">
-                Showing hotels located in "<%= city%>"
+                <%= sprintf(gt.gettext('Showing hotels located in \"%s\"'), city) %>
             </div>
             <div class="h1 col-md-3 col-md-offset-1 text-right">
-                <small><%= results %> of <%= results%> results shown.</small>
+                <small><%= sprintf(gt.ngettext('%d of %d result shown.', '%d of %d results shown.', results, results),
+                            results, results) %></small>
             </div>
         </div>
     </div>
+    <hr>
     <!-- /.row -->
+    <div class="row">
+        <div class="h1 text-center">
+            <%= gt.gettext('We are sorry, but we could not find any hotels in the location that you selected. Please try revising your search.') %>
+        </div>
+    </div>
 
     <hr>
 
@@ -54,13 +61,7 @@
         </div>
     </div>
     <!-- /.row -->
-
-    <hr>
-
-    <!-- Footer -->
-    <% include ../partials/footer.ejs%>
-
 </div>
-
+<% include ../partials/footer.ejs %>
 </body>
 </html>

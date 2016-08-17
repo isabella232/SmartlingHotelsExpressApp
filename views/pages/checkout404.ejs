@@ -4,7 +4,16 @@
     <% include ../partials/head.ejs %>
     <% include ../partials/opengraph.ejs %>
 
-    <title> | SmartlingHotels</title>
-
 </head>
+<body>
+
+<% include ../partials/pageheader.ejs %>
+
+<div class="container-fluid h1">
+    <%= gt.gettext('Sorry, but something appears to have gone wrong. Please try again or contact our support team for assistance.') %>
+</div>
+
+<% include ../partials/footer.ejs %>
+
+</body>
 </html>

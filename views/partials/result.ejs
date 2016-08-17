@@ -1,25 +1,25 @@
 <% for(var i = 0; i < hotels.length; i++){ %>
-    <% var hotel = hotels[i]; %>
-        <div class="row">
-            <div class="col-md-7">
-                <a href="/<%= hotel.link %>">
-                    <img class="img-responsive" src="/img/<%= hotel.image %>" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <div class="h3"><%= hotel.name %></div>
-                <div class="h4">Location: <br>
-                    <address style="font-size: small;">
-                        <%= hotel.address.compiled_ln1 %><br>
-                        <%= hotel.address.compiled_ln2 %><br>
-                    </address>
-
-                </div>
-                <%- hotel.description1 %>
-                <a class="btn btn-primary" href="/<%= hotel.link %>">Check Room Availability<span
-                            class="glyphicon glyphicon-chevron-right"></span></a>
-            </div>
+<% var hotel = hotels[i]; %>
+<div class="row">
+    <div class="col-md-7">
+        <a href="/<%= hotel.link %>">
+            <img class="img-responsive" src="/img/<%= hotel.image %>" alt="">
+        </a>
+    </div>
+    <div class="col-md-5">
+        <div class="h3"><%= hotel.name %></div>
+        <div class="h4"><%= gt.gettext('Location: ') %><br>
+            <address style="font-size: small;">
+                <%= hotel.address.compiled_ln1 %><br>
+                <%= hotel.address.compiled_ln2 %><br>
+            </address>
         </div>
-        <!-- /.row -->
-        <hr>
+        <%- hotel.description1 %>
+        <a class="btn btn-primary" href="/<%= hotel.link %>">
+            <%= gt.gettext('Check Room Availability') %>
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+    </div>
+</div>
+<hr>
 <% } %>

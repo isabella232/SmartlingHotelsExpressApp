@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2016-08-16 20:43+0000\n"
+"POT-Creation-Date: 2016-08-17 17:57+0000\n"
 
 #: ./views/pages/about_us.ejs:14
 msgid ""
@@ -25,9 +25,66 @@ msgid ""
 "prices!"
 msgstr ""
 
-#: ./views/pages/checkout.ejs:19
-msgid "Hello %s %d"
+#: ./views/pages/checkout.ejs:24
+msgid "Hello %s %s"
 msgstr ""
+
+#: ./views/pages/checkout.ejs:27
+msgid "You are booking a room at <span class=\"checkout\">%s</span>"
+msgstr ""
+
+#: ./views/pages/checkout.ejs:31
+msgid "For a total of <span class=\"checkout\">%d<span> night"
+msgid_plural "For a total of <span class=\"checkout\">%d<span> nights"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ./views/pages/checkout.ejs:35
+msgid "At a price of <span class=\"checkout\">$%s per night</span>"
+msgstr ""
+
+#: ./views/pages/checkout.ejs:38
+msgid "For a total price of <span class=\"checkout\">$%s</span>"
+msgstr ""
+
+#: ./views/pages/checkout.ejs:45
+msgid "Click This Button to Confirm Your Room Reservation"
+msgstr ""
+
+#: ./views/pages/checkout404.ejs:13
+msgid ""
+"Sorry, but something appears to have gone wrong. Please try again or "
+"contact our support team for assistance."
+msgstr ""
+
+#: ./views/pages/hotel_page.ejs:44
+msgid ""
+"%d room available with prices starting at <span class=\"roomPrice\">$%d per "
+"night</span>"
+msgid_plural ""
+"%d rooms available with prices starting at <span class=\"roomPrice\">$%d "
+"per night</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ./views/pages/hotel_page.ejs:53
+msgid "Click This Button to Make a Reservation"
+msgstr ""
+
+#: ./views/pages/hotel_page.ejs:96
+msgid "Location"
+msgstr ""
+
+#: ./views/pages/hotel_results.ejs:30
+msgid "Showing hotels located in \"%s, %s\""
+msgstr ""
+
+#: ./views/pages/hotel_results.ejs:36
+#: ./views/pages/results404.ejs:33
+msgid "%d of %d result shown."
+msgid_plural "%d of %d results shown."
+msgstr[0] ""
+msgstr[1] ""
 
 #: ./views/pages/index.ejs:29
 msgid "Get the best rooms for the best prices! Only at SmartlingHotels®."
@@ -49,18 +106,34 @@ msgid_plural "You are booking %d nights"
 msgstr[0] ""
 msgstr[1] ""
 
+#: ./views/pages/page404.ejs:25
+msgid ""
+"Sorry, but the hotel you are looking for is not here. Please try revising "
+"your search."
+msgstr ""
+
+#: ./views/pages/results404.ejs:29
+msgid "Showing hotels located in \"%s\""
+msgstr ""
+
+#: ./views/pages/results404.ejs:42
+msgid ""
+"We are sorry, but we could not find any hotels in the location that you "
+"selected. Please try revising your search."
+msgstr ""
+
 #: ./views/pages/site_map.ejs:14
-#: ./views/partials/pageheader.ejs:13
+#: ./views/partials/pageheader.ejs:14
 msgid "Home"
 msgstr ""
 
 #: ./views/pages/site_map.ejs:15
-#: ./views/partials/pageheader.ejs:14
+#: ./views/partials/pageheader.ejs:15
 msgid "Browse Hotels"
 msgstr ""
 
 #: ./views/pages/site_map.ejs:16
-#: ./views/partials/pageheader.ejs:15
+#: ./views/partials/pageheader.ejs:16
 msgid "About Us"
 msgstr ""
 
@@ -69,7 +142,7 @@ msgid "Costumer Support"
 msgstr ""
 
 #: ./views/pages/site_map.ejs:18
-#: ./views/partials/pageheader.ejs:17
+#: ./views/partials/pageheader.ejs:18
 msgid "Site Map"
 msgstr ""
 
@@ -87,12 +160,51 @@ msgid ""
 "effectiveness of our services. "
 msgstr ""
 
-#: ./views/partials/pageheader.ejs:16
+#: ./views/pages/thank_you.ejs:13
+msgid ""
+"Thank you for using SmartlingHotels <br> <small> <em>For all your room "
+"booking needs!</em> </small>"
+msgstr ""
+
+#: ./views/pages/thank_you.ejs:18
+msgid "Click Here to Return to the Home Page"
+msgstr ""
+
+#: ./views/partials/browse_form.ejs:8
+msgid "Please input your location."
+msgstr ""
+
+#: ./views/partials/browse_form.ejs:16
+msgid "Find Hotels"
+msgstr ""
+
+#: ./views/partials/browse_form.ejs:20
+msgid "Revise Search"
+msgstr ""
+
+#: ./views/partials/browse_form.ejs:23
+msgid "Return to Search"
+msgstr ""
+
+#: ./views/partials/footer.ejs:5
+msgid "Copyright © SmartlingHotels 2016"
+msgstr ""
+
+#: ./views/partials/pageheader.ejs:4
+#: ./views/partials/pageheader.ejs:26
+msgid "SmartlingHotels"
+msgstr ""
+
+#: ./views/partials/pageheader.ejs:17
 msgid "Customer Support"
 msgstr ""
 
-#: ./views/partials/pageheader.ejs:25
-msgid "SmartlingHotels"
+#: ./views/partials/result.ejs:11
+msgid "Location: "
+msgstr ""
+
+#: ./views/partials/result.ejs:19
+msgid "Check Room Availability"
 msgstr ""
 
 #: ./views/partials/room_modal.ejs:19

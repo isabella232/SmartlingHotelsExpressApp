@@ -303,10 +303,8 @@ app.get('/:hotelPath', function (request, response) {
 app.get('/', function (request, response) {
 
     var meta = getMeta(request);
-
     var titleText = meta.index.titleText
     var description = meta.index.description;
-
     response.render('pages/index', {titleText: titleText, description: description});
 });
 

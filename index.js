@@ -8,7 +8,6 @@ var fs = require('fs');
 var locale = require('locale');
 var gt = new Gettext();
 
-
 // Set port for the app to run on
 app.set('port', (process.env.PORT || 5000));
 
@@ -19,16 +18,15 @@ app.use(express.static('public'));
 app.set('views', __dirname + '/views');
 app.set('view engine', 'ejs');
 
-// Set supported localesd
+// Set supported locales
 var supportedLocales = ["en", "es"];
 app.use(locale(supportedLocales));
 
 
-
- var fileContentsEnglish = fs.readFileSync("./data/strings/en.po");
- gt.addTextdomain("en", fileContentsEnglish);
- var fileContentsSpanish = fs.readFileSync("./data/strings/es.po");
- gt.addTextdomain("es", fileContentsSpanish);
+var fileContentsEnglish = fs.readFileSync("./data/strings/en.po");
+gt.addTextdomain("en", fileContentsEnglish);
+var fileContentsSpanish = fs.readFileSync("./data/strings/es.po");
+gt.addTextdomain("es", fileContentsSpanish);
 
 
 // Let EJS templates use Gettext and sprintf
@@ -41,21 +39,29 @@ app.use(function (req, res, next) {
 
 
 /* Fields */
-var nav = JSON.parse(fs.readFileSync('./data/strings/en/nav.json', 'utf8'));
-var meta = JSON.parse(fs.readFileSync('./data/strings/en/meta.json', 'utf8'));
-var data = JSON.parse(fs.readFileSync('./data/strings/en/data.json', 'utf8'));
+function getMeta(request) {
+    var path = './data/strings/' + request.locale + '/meta.json';
+    return JSON.parse(fs.readFileSync(path, 'utf8')).meta;
+};
+
 function getHotels(request) {
     var path = './data/strings/' + request.locale + '/hotels.json';
     return JSON.parse(fs.readFileSync(path, 'utf8')).hotels;
 };
-var checkout = JSON.parse(fs.readFileSync('./data/strings/en/checkout.json', 'utf8'));
-var locations = JSON.parse(fs.readFileSync('./data/strings/en/locations.json', 'utf8'));
+
+function getLocations(request) {
+    path = './data/strings/' + request.locale + '/locations.json';
+    return JSON.parse(fs.readFileSync(path, 'utf8')).locations;
+}
 /* Fields */
 
 /* Hotel Results */
 app.get('/browse/:city', function (request, response) {
     var city = request.params.city;
+
     var hotels = getHotels(request);
+    var locations = getLocations(request);
+    var meta = getMeta(request);
 
     var results = [];
     var titleText = "";
@@ -70,18 +76,20 @@ app.get('/browse/:city', function (request, response) {
     }
 
     var currentLocation = "";
-    for (var i = 0; i < locations.length; i++){
-        if(locations[i].link === city){
+    for (var i = 0; i < locations.length; i++) {
+        if (locations[i].link === city) {
             currentLocation = locations[i].txt;
             break;
         }
     }
 
     if (results.length > 0) {
+
         titleText = meta.browse.titleText;
-        var description = sprintf(gt.gettext('SmartlingHotels is currently displaying all hotels present in the SmartlingHotels Database that are located in the area of: %s'), currentLocation);
+        description = sprintf(gt.gettext('SmartlingHotels is currently displaying all hotels present in the SmartlingHotels Database that are located in the area of: %s'), currentLocation);
+
         response.render('pages/hotel_results', {
-            nav: nav,
+
             hotels: results,
             locations: locations,
             city: currentLocation,
@@ -92,10 +100,12 @@ app.get('/browse/:city', function (request, response) {
     }
     else {
         results = 0;
+
         titleText = meta.results404.titleText;
         description = meta.results404.description;
+
         response.render('pages/results404', {
-            nav: nav,
+
             locations: locations,
             city: city,
             results: results,
@@ -107,39 +117,54 @@ app.get('/browse/:city', function (request, response) {
 
 /* About Us */
 app.get('/about_us', function (request, response) {
+
+    var meta = getMeta(request);
+
     var titleText = meta.about_us.titleText;
     var description = meta.about_us.description;
-    var data2 = data.about_us;
-    response.render('pages/about_us', {nav: nav, titleText: titleText, description: description, data: data2});
+
+    response.render('pages/about_us', {titleText: titleText, description: description});
 });
 
 /* Browse */
 app.get('/browse', function (request, response) {
+
+    var locations = getLocations(request);
+    var meta = getMeta(request);
+
     var titleText = meta.browse.titleText;
     var description = meta.browse.description;
-    response.render('pages/browse', {nav: nav, locations: locations, titleText: titleText, description: description});
+    response.render('pages/browse', {locations: locations, titleText: titleText, description: description});
 });
 
 /* Site Map */
 app.get('/site_map', function (request, response) {
+
+    var meta = getMeta(request);
+
     var titleText = meta.site_map.titleText;
     var description = meta.site_map.description;
-    var data2 = data.site_map;
-    response.render('pages/site_map', {nav: nav, titleText: titleText, description: description, data: data2});
+
+    response.render('pages/site_map', {titleText: titleText, description: description});
 });
 
 /* Support */
 app.get('/support', function (request, response) {
+
+    var meta = getMeta(request);
+
     var titleText = meta.support.titleText;
     var description = meta.support.description;
-    var data2 = data.support;
-    response.render('pages/support', {nav: nav, titleText: titleText, description: description, data: data2});
+
+    response.render('pages/support', {titleText: titleText, description: description});
 });
 
 /* Reservation Confirmed*/
 app.get('/:hotelPath/checkout/reservation_confirmed', function (request, response) {
     var hotelPath = request.params.hotelPath;
+
     var hotels = getHotels(request);
+    var meta = getMeta(request);
 
     var currentHotel = {};
     var titleText = "";
@@ -151,21 +176,23 @@ app.get('/:hotelPath/checkout/reservation_confirmed', function (request, respons
         }
     }
     if (Object.keys(currentHotel).length > 0) {
+
         titleText = meta.thank_you.titleText;
         description = meta.thank_you.description;
 
         response.render('pages/thank_you', {
-            nav: nav,
+
             hotel: currentHotel,
-            checkout: checkout,
             titleText: titleText,
             description: description
         });
     } else {
+
         titleText = meta.checkout404.titleText;
         description = meta.checkout404.description;
+
         response.render('pages/checkout404', {
-            nav: nav,
+
             locations: locations,
             titleText: titleText,
             description: description
@@ -176,7 +203,9 @@ app.get('/:hotelPath/checkout/reservation_confirmed', function (request, respons
 /* Checkout */
 app.get('/:hotelPath/book?', function (request, response) {
     var hotelPath = request.params.hotelPath;
+
     var hotels = getHotels(request);
+    var meta = getMeta(request);
 
     var currentHotel = {};
     var titleText = "";
@@ -194,23 +223,24 @@ app.get('/:hotelPath/book?', function (request, response) {
             "email": request.query.email,
             "nights": parseInt(request.query.nights)
         };
+
         titleText = meta.checkout.titleText;
         description = meta.checkout.description;
 
         response.render('pages/checkout', {
-            nav: nav,
+
             hotel: currentHotel,
-            checkout: checkout,
             titleText: titleText,
             description: description,
             formData: formData
         });
     } else {
+
         titleText = meta.checkout404.titleText;
         description = meta.checkout404.description;
+
         response.render('pages/checkout404', {
-            nav: nav,
-            locations: locations,
+
             titleText: titleText,
             description: description
         });
@@ -221,7 +251,10 @@ app.get('/:hotelPath/book?', function (request, response) {
 /* Hotel Page */
 app.get('/:hotelPath', function (request, response) {
     var hotelPath = request.params.hotelPath;
+
     var hotels = getHotels(request);
+    var locations = getLocations(request);
+    var meta = getMeta(request);
 
     var currentHotel = {};
     var titleText = "";
@@ -235,18 +268,21 @@ app.get('/:hotelPath', function (request, response) {
         }
     }
     if (Object.keys(currentHotel).length > 0) {
+
         response.render('pages/hotel_page', {
-            nav: nav,
+
             hotel: currentHotel,
             locations: locations,
             titleText: titleText,
             description: description
         });
     } else {
+
         titleText = meta.page404.titleText;
         description = meta.page404.description;
+
         response.render('pages/page404', {
-            nav: nav,
+
             locations: locations,
             titleText: titleText,
             description: description
@@ -259,16 +295,19 @@ app.get('/:hotelPath', function (request, response) {
  app.get('/:language/', function(request, response) {
  var language = request.params.language;
  var data = JSON.parse(require('fs').readFileSync('./data/strings/en/data.json', 'utf8'));
- response.render('pages/index', {nav: nav, data: data});
+ response.render('pages/index', { data: data});
  });
  */
 
 /* Index */
 app.get('/', function (request, response) {
+
+    var meta = getMeta(request);
+
     var titleText = meta.index.titleText
-    var data2 = data;
     var description = meta.index.description;
-    response.render('pages/index', {nav: nav, data: data2, titleText: titleText, description: description});
+
+    response.render('pages/index', {titleText: titleText, description: description});
 });
 
 

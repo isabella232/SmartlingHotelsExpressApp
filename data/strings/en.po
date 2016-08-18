@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2016-08-17 20:19+0000\n"
+"POT-Creation-Date: 2016-08-18 16:35+0000\n"
 
 #: ./views/pages/about_us.ejs:14
 msgid ""
@@ -25,29 +25,29 @@ msgid ""
 "prices!"
 msgstr ""
 
-#: ./views/pages/checkout.ejs:24
+#: ./views/pages/checkout.ejs:26
 msgid "Hello %s %s"
 msgstr ""
 
-#: ./views/pages/checkout.ejs:27
+#: ./views/pages/checkout.ejs:29
 msgid "You are booking a room at <span class=\"checkout\">%s</span>"
 msgstr ""
 
-#: ./views/pages/checkout.ejs:31
+#: ./views/pages/checkout.ejs:33
 msgid "For a total of <span class=\"checkout\">%d<span> night"
 msgid_plural "For a total of <span class=\"checkout\">%d<span> nights"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ./views/pages/checkout.ejs:35
+#: ./views/pages/checkout.ejs:37
 msgid "At a price of <span class=\"checkout\">$%s per night</span>"
 msgstr ""
 
-#: ./views/pages/checkout.ejs:38
+#: ./views/pages/checkout.ejs:41
 msgid "For a total price of <span class=\"checkout\">$%s</span>"
 msgstr ""
 
-#: ./views/pages/checkout.ejs:45
+#: ./views/pages/checkout.ejs:48
 msgid "Click This Button to Confirm Your Room Reservation"
 msgstr ""
 
@@ -59,10 +59,10 @@ msgstr ""
 
 #: ./views/pages/hotel_page.ejs:44
 msgid ""
-"%d room available with prices starting at <span class=\"roomPrice\">$%d per "
+"%d room available with prices starting at <span class=\"roomPrice\">$%s per "
 "night</span>"
 msgid_plural ""
-"%d rooms available with prices starting at <span class=\"roomPrice\">$%d "
+"%d rooms available with prices starting at <span class=\"roomPrice\">$%s "
 "per night</span>"
 msgstr[0] ""
 msgstr[1] ""
@@ -72,7 +72,7 @@ msgid "Click This Button to Make a Reservation"
 msgstr ""
 
 #: ./views/pages/hotel_page.ejs:96
-msgid "Location"
+msgid "Location:"
 msgstr ""
 
 #: ./views/pages/hotel_results.ejs:30
@@ -95,16 +95,6 @@ msgid ""
 "Here at SmartlingHotels, we provide only the greatest hotels and only the "
 "greatest prices. We guarantee that all customers will be 100% satisfied."
 msgstr ""
-
-#: ./views/pages/index.ejs:36
-msgid "Welcome back, %s!"
-msgstr ""
-
-#: ./views/pages/index.ejs:39
-msgid "You are booking %d night"
-msgid_plural "You are booking %d nights"
-msgstr[0] ""
-msgstr[1] ""
 
 #: ./views/pages/page404.ejs:25
 msgid ""
@@ -138,7 +128,8 @@ msgid "About Us"
 msgstr ""
 
 #: ./views/pages/site_map.ejs:17
-msgid "Costumer Support"
+#: ./views/partials/pageheader.ejs:17
+msgid "Customer Support"
 msgstr ""
 
 #: ./views/pages/site_map.ejs:18
@@ -193,10 +184,6 @@ msgstr ""
 #: ./views/partials/pageheader.ejs:4
 #: ./views/partials/pageheader.ejs:26
 msgid "SmartlingHotels"
-msgstr ""
-
-#: ./views/partials/pageheader.ejs:17
-msgid "Customer Support"
 msgstr ""
 
 #: ./views/partials/result.ejs:11

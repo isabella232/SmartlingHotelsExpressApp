@@ -1,0 +1,23 @@
+{
+  "smartling" : {
+    "translate_paths" : [
+    {
+      "path" : "locations/*"
+    }]
+  },
+  "locations" : [
+  {
+    "txt" : "",
+    "link" : ""
+  },
+
+  {
+    "txt" : "Nueva York, NY",
+    "link" : "New_York"
+  },
+
+  {
+    "txt" : "Boston, MA",
+    "link" : "Boston"
+  }]
+}

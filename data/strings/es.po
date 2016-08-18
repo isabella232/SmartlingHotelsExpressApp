@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2016-08-17 20:19+0000\n"
+"POT-Creation-Date: 2016-08-18 14:47+0000\n"
 
 #: ./views/pages/about_us.ejs:14
 msgid ""
@@ -64,21 +64,21 @@ msgstr "Lo sentimos, pero algo parece haber salido mal. Inténtelo de nuevo o p�
 
 #: ./views/pages/hotel_page.ejs:44
 msgid ""
-"%d room available with prices starting at <span class=\"roomPrice\">$%d per "
+"%d room available with prices starting at <span class=\"roomPrice\">$%s per "
 "night</span>"
 msgid_plural ""
-"%d rooms available with prices starting at <span class=\"roomPrice\">$%d "
+"%d rooms available with prices starting at <span class=\"roomPrice\">$%s "
 "per night</span>"
-msgstr[0] "%d habitacion disponibles con precios que comienzan en <span class=\"roomPrice\"> $%d por noche </span>"
-msgstr[1] "%d habitaciones disponibles con precios que comienzan en <span class=\"roomPrice\"> $%d por noche </span>"
+msgstr[0] "%d habitacion disponibles con precios que comienzan en <span class=\"roomPrice\"> $%s por noche </span>"
+msgstr[1] "%d habitaciones disponibles con precios que comienzan en <span class=\"roomPrice\"> $%s por noche </span>"
 
 #: ./views/pages/hotel_page.ejs:53
 msgid "Click This Button to Make a Reservation"
 msgstr "Clic en este botón para hacer una reserva"
 
 #: ./views/pages/hotel_page.ejs:96
-msgid "Location"
-msgstr "Ubicación"
+msgid "Location:"
+msgstr "Ubicación:"
 
 #: ./views/pages/hotel_results.ejs:30
 msgid "Showing hotels located in: \"%s\""
@@ -100,16 +100,6 @@ msgid ""
 "Here at SmartlingHotels, we provide only the greatest hotels and only the "
 "greatest prices. We guarantee that all customers will be 100% satisfied."
 msgstr "Aquí en SmartlingHotels, sólo se ofrecen los más grandes hoteles y sólo los mayores precios. Le garantizamos que todos los clientes el 100% satisfecho."
-
-#: ./views/pages/index.ejs:36
-msgid "Welcome back, %s!"
-msgstr "Bienvenido de nuevo,% s!"
-
-#: ./views/pages/index.ejs:39
-msgid "You are booking %d night"
-msgid_plural "You are booking %d nights"
-msgstr[0] "Usted está reservando %d noche"
-msgstr[1] "Usted está reservando %d noches"
 
 #: ./views/pages/page404.ejs:25
 msgid ""
@@ -143,7 +133,8 @@ msgid "About Us"
 msgstr "Sobre nosotros"
 
 #: ./views/pages/site_map.ejs:17
-msgid "Costumer Support"
+#: ./views/partials/pageheader.ejs:17
+msgid "Customer Support"
 msgstr "Soporte al cliente"
 
 #: ./views/pages/site_map.ejs:18
@@ -201,10 +192,6 @@ msgstr "Copyright © 2016 SmartlingHotels"
 #: ./views/partials/pageheader.ejs:26
 msgid "SmartlingHotels"
 msgstr "SmartlingHotels"
-
-#: ./views/partials/pageheader.ejs:17
-msgid "Customer Support"
-msgstr "Soporte al cliente"
 
 #: ./views/partials/result.ejs:11
 msgid "Location: "

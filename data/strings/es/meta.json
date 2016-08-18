@@ -1,0 +1,51 @@
+{
+  "smartling" : {
+    "translate_paths" : [
+    {
+      "path" : "meta/*"
+    }]
+  },
+  "meta" : {
+    "about_us" : {
+      "titleText" : "Sobre nosotros",
+      "description" : "SmartlingHotels® es sitio de viajes más grande del mundo, que permite a los viajeros a utilizar todo el potencial de cada viaje."
+    },
+    "index" : {
+      "titleText" : "Inicio",
+      "description" : "Recibe las mejores habitaciones para los mejores precios! Sólo en SmartlingHotels®."
+    },
+    "browse" : {
+      "titleText" : "Busque hoteles",
+      "default" : "SmartlingHotels® puede ayudar a ahorrar tiempo, dinero y energía mediante la comparación de millones de listados de hoteles y encontrar las mejores habitaciones para los mejores precios, todos con el clic de un botón. Simplemente introduzca su ubicación deseada y ver como SmartlingHotels elimina todos los problemas que viene con la búsqueda de el hotel perfecto para su viaje.",
+      "results" : "SmartlingHotels esté visible todos los hoteles presentes en la base de datos SmartlingHotels que se encuentra en el área de: "
+    },
+    "checkout" : {
+      "titleText" : "Revisa",
+      "description" : "Reserve sus habitaciones de hotel con SmartlingHotels!"
+    },
+    "support" : {
+      "titleText" : "Soporte al cliente",
+      "description" : "Nosotros en SmartlingHotels® esforzamos para garantizar que nuestros clientes estén 100% satisfechos. Sin embargo, entendemos que algunos clientes pueden no estar satisfecho con los servicios que proporcionamos. Damos la bienvenida a los clientes insatisfechos para expresar sus inquietudes para que podamos mejorar nuestra nuestra empresa y rectificar cualquier experiencias insatisfactorias."
+    },
+    "site_map" : {
+      "titleText" : "Mapa del sitio",
+      "description" : "Si no encuentra lo que está buscando? Revisar el mapa del sitio para SmartlingHotels y ver una lista de todas nuestras páginas."
+    },
+    "thank_you" : {
+      "titleText" : "Reserva confirmada",
+      "description" : "Gracias por usar SmartlingHotels - Para todas sus necesidades de reserva de habitación!"
+    },
+    "checkout404" : {
+      "titleText" : "Error",
+      "description" : "Lo siento. Tu solicitud no pudo ser procesada. Inténtelo de nuevo más tarde."
+    },
+    "results404" : {
+      "titleText" : "Error",
+      "description" : "Lo sentimos, no hemos podido encontrar hoteles en la zona que ha descrito. Trate de revisar su búsqueda."
+    },
+    "page404" : {
+      "titleText" : "Error",
+      "description" : "Lo sentimos, no pudimos encontrar el hotel que busca. Trate de revisar su búsqueda."
+    }
+  }
+}

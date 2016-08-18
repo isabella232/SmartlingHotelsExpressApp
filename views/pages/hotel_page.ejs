@@ -35,12 +35,12 @@
             <!-- carousel-->
             <% include ../partials/carousel_template.ejs %>
             <% var rooms = parseInt(hotel.rooms) %>
-            <% var price = parseInt(hotel.price) %>
+            <% var price = hotel.price.num %>
             <br>
             <div class="row">
                 <div style="text-align: center; font-weight: 700; font-size: 185%;">
-                    <%- sprintf(gt.ngettext('%d room available with prices starting at <span class="roomPrice">$%d per night</span>',
-                            '%d rooms available with prices starting at <span class="roomPrice">$%d per night</span>', rooms, price),
+                    <%- sprintf(gt.ngettext('%d room available with prices starting at <span class="roomPrice">$%s per night</span>',
+                            '%d rooms available with prices starting at <span class="roomPrice">$%s per night</span>', rooms, price),
                             rooms, price) %>
                 </div>
             </div>
@@ -91,7 +91,7 @@
         <div class="col-md-4">
             <div class="h1"><%= hotel.name %></div>
             <hr>
-            <div class="h4"><%= gt.gettext('Location') %><br>
+            <div class="h4"><%= gt.gettext('Location:') %><br>
                 <span>
                     <small>
                         <%= hotel.address.compiled_ln1 %>

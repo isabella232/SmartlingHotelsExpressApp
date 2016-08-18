@@ -21,6 +21,8 @@
         <div class="col-md-5">
             <div class="panel panel-primary" style="background: #337ab7; color: #ffffff;">
                 <div class="container-fluid">
+                    <% var priceString = hotel.price.string %>
+                    <% var priceNum = hotel.price.num %>
                     <div class="h3"><%= sprintf(gt.gettext('Hello %s %s'), formData.firstName, formData.lastName) %></div>
                     <div class="h4" style="line-height: 150%;">
                         <div>
@@ -31,10 +33,11 @@
                                     'For a total of <span class="checkout">%d<span> nights', formData.nights), formData.nights) %>
                         </div>
                         <div>
-                            <%- sprintf(gt.gettext('At a price of <span class="checkout">$%s per night</span>'), hotel.price) %>
+                            <%- sprintf(gt.gettext('At a price of <span class="checkout">$%s per night</span>'), priceString) %>
                         </div>
                         <div>
-                            <%- sprintf(gt.gettext('For a total price of <span class="checkout">$%s</span>'), formData.nights * hotel.price) %>
+                            <% console.log(formData.nights.toString() + "*"+ hotel.price + "=" + formData.nights * priceNum)%>
+                            <%- sprintf(gt.gettext('For a total price of <span class="checkout">$%s</span>'), (formData.nights * priceNum)) %>
                         </div>
                     </div>
                 </div>
